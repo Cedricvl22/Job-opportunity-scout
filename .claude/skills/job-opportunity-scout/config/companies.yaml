@@ -1,0 +1,478 @@
+# Target companies and where their jobs are published.
+#
+#   name:      display name (also used to match aggregator results)
+#   ats:       greenhouse | lever | ashby | smartrecruiters | workable | recruitee | personio | teamtailor | workday | browser
+#   id:        board token / account slug / Workday tenant
+#   wd, site:  Workday only (from https://{id}.{wd}.myworkdayjobs.com/{site})
+#   region:    lever only, "eu" for api.eu.lever.co
+#   bucket:    A = Fortune 500 / Global 500, B = tech start-up / scale-up
+#   industry:  free text, helps scoring
+#   enabled:   false to switch an entry off without deleting it
+#
+# Add companies with:  python3 scripts/discover.py "Company" --bucket B --industry SaaS --add
+# Test all entries:    python3 scripts/discover.py --check
+# HPE and HPE-owned brands (Aruba, Juniper, Morpheus, OpsRamp, Zerto) are excluded on purpose.
+
+companies:
+  # ------------------------------------------------------------ Bucket A: Fortune 500 / Global 500 (IT first)
+  - name: Salesforce
+    ats: workday
+    id: salesforce
+    wd: wd12
+    site: External_Career_Site
+    bucket: A
+    industry: CRM / SaaS
+  - name: Cisco
+    ats: workday
+    id: cisco
+    wd: wd5
+    site: Cisco_Careers
+    bucket: A
+    industry: networking / security
+  - name: Dell Technologies
+    ats: workday
+    id: dell
+    wd: wd1
+    site: External
+    bucket: A
+    industry: IT infrastructure
+  - name: Intel
+    ats: workday
+    id: intel
+    wd: wd1
+    site: External
+    bucket: A
+    industry: semiconductors
+  - name: Adobe
+    ats: workday
+    id: adobe
+    wd: wd5
+    site: external_experienced
+    bucket: A
+    industry: software
+  - name: Workday
+    ats: workday
+    id: workday
+    wd: wd5
+    site: Workday
+    bucket: A
+    industry: HR / finance SaaS
+  - name: HP Inc
+    ats: workday
+    id: hp
+    wd: wd5
+    site: ExternalCareerSite
+    bucket: A
+    industry: PCs / print
+  - name: Kyndryl
+    ats: workday
+    id: kyndryl
+    wd: wd5
+    site: KyndrylProfessionalCareers
+    bucket: A
+    industry: IT infrastructure services
+  - name: DXC Technology
+    ats: workday
+    id: dxctechnology
+    wd: wd1
+    site: DXCJobs
+    bucket: A
+    industry: IT services
+  - name: Broadcom
+    ats: workday
+    id: broadcom
+    wd: wd1
+    site: External_Career
+    bucket: A
+    industry: semiconductors / VMware software
+  - name: Mastercard
+    ats: workday
+    id: mastercard
+    wd: wd1
+    site: CorporateCareers
+    bucket: A
+    industry: payments
+  - name: Motorola Solutions
+    ats: workday
+    id: motorolasolutions
+    wd: wd5
+    site: Careers
+    bucket: A
+    industry: critical communications
+  - name: Equinix
+    ats: workday
+    id: equinix
+    wd: wd1
+    site: External
+    bucket: A
+    industry: data centres
+  - name: NVIDIA
+    ats: workday
+    id: nvidia
+    wd: wd5
+    site: NVIDIAExternalCareerSite
+    bucket: A
+    industry: semiconductors / AI
+  - name: Accenture
+    ats: workday
+    id: accenture
+    wd: wd103
+    site: AccentureCareers
+    bucket: A
+    industry: IT services / consulting
+  - name: 3M
+    ats: workday
+    id: 3m
+    wd: wd1
+    site: Search
+    bucket: A
+    industry: industrial
+  - name: Johnson & Johnson
+    ats: workday
+    id: jj
+    wd: wd5
+    site: JJ
+    bucket: A
+    industry: healthcare
+  - name: Dow
+    ats: workday
+    id: dow
+    wd: wd1
+    site: ExternalCareers
+    bucket: A
+    industry: chemicals
+  - name: ServiceNow
+    ats: smartrecruiters
+    id: ServiceNow
+    bucket: A
+    industry: workflow SaaS
+  - name: Visa
+    ats: smartrecruiters
+    id: Visa
+    bucket: A
+    industry: payments
+  - name: Bosch
+    ats: smartrecruiters
+    id: BoschGroup
+    bucket: A
+    industry: industrial / IoT
+  - name: Airbnb
+    ats: greenhouse
+    id: airbnb
+    bucket: A
+    industry: travel marketplace
+  - name: Block
+    ats: greenhouse
+    id: block
+    bucket: A
+    industry: fintech (Square)
+  - name: Mendix
+    ats: lever
+    id: mendix
+    bucket: A
+    industry: low-code platform (Siemens group)
+  - name: SAP
+    ats: browser
+    key: sap
+    urls: ["https://jobs.sap.com/search/?locationsearch=Belgium"]   # q= is disallowed by robots.txt
+    card: "tr.data-row"
+    link: "a.jobTitle-link"
+    location: ".jobLocation"
+    wait_for: "tr.data-row"
+    description: ".jobdescription"
+    bucket: A
+    industry: enterprise software
+
+  # ------------------------------------------------------------ Bucket B: tech scale-ups and growth tech (Belgian / Benelux first)
+  - name: Collibra
+    ats: greenhouse
+    id: collibra
+    bucket: B
+    industry: data governance SaaS (Brussels)
+  - name: Showpad
+    ats: greenhouse
+    id: showpad
+    bucket: B
+    industry: sales enablement SaaS (Ghent)
+  - name: Deliverect
+    ats: lever
+    id: deliverect
+    bucket: B
+    industry: restaurant tech SaaS (Ghent)
+  - name: Aikido Security
+    ats: recruitee
+    id: aikidosecurity
+    bucket: B
+    industry: application security SaaS (Ghent)
+  - name: Lighthouse
+    ats: greenhouse
+    id: lighthouse
+    bucket: B
+    industry: hospitality data SaaS (Ghent)
+  - name: Silverfin
+    ats: lever
+    id: silverfin
+    region: eu
+    bucket: B
+    industry: accounting SaaS (Ghent, Visma group)
+  - name: Lansweeper
+    ats: recruitee
+    id: lansweeper
+    bucket: B
+    industry: IT asset management SaaS (Ghent)
+  - name: Mollie
+    ats: ashby
+    id: mollie
+    bucket: B
+    industry: payments (Amsterdam)
+  - name: Adyen
+    ats: greenhouse
+    id: adyen
+    bucket: B
+    industry: payments (Amsterdam, public)
+  - name: bunq
+    ats: recruitee
+    id: bunq
+    bucket: B
+    industry: neobank (Amsterdam)
+  - name: Miro
+    ats: greenhouse
+    id: realtimeboardglobal
+    bucket: B
+    industry: collaboration SaaS (Amsterdam)
+  - name: TOPdesk
+    ats: lever
+    id: topdesk
+    bucket: B
+    industry: IT service management (Delft)
+  - name: Templafy
+    ats: teamtailor
+    id: templafy
+    bucket: B
+    industry: document automation SaaS (Copenhagen)
+  - name: Planhat
+    ats: ashby
+    id: planhat
+    bucket: B
+    industry: customer platform SaaS (Stockholm)
+  - name: Pleo
+    ats: ashby
+    id: pleo
+    bucket: B
+    industry: spend management (Copenhagen)
+  - name: Databricks
+    ats: greenhouse
+    id: databricks
+    bucket: B
+    industry: data & AI platform
+  - name: Snowflake
+    ats: ashby
+    id: snowflake
+    bucket: B
+    industry: data cloud (public, non-F500)
+  - name: Datadog
+    ats: greenhouse
+    id: datadog
+    bucket: B
+    industry: observability SaaS (public, non-F500)
+  - name: Cloudflare
+    ats: greenhouse
+    id: cloudflare
+    bucket: B
+    industry: network security (public, non-F500)
+  - name: MongoDB
+    ats: greenhouse
+    id: mongodb
+    bucket: B
+    industry: database (public, non-F500)
+  - name: Elastic
+    ats: greenhouse
+    id: elastic
+    bucket: B
+    industry: search / observability (public, non-F500)
+  - name: Pure Storage
+    ats: greenhouse
+    id: purestorage
+    bucket: B
+    industry: storage infrastructure (public, non-F500)
+  - name: Commvault
+    ats: greenhouse
+    id: commvault
+    bucket: B
+    industry: data protection (public, non-F500)
+  - name: Extreme Networks
+    ats: lever
+    id: extremenetworks
+    bucket: B
+    industry: networking infrastructure (public, non-F500)
+  - name: Okta
+    ats: greenhouse
+    id: okta
+    bucket: B
+    industry: identity security (public, non-F500)
+  - name: Zscaler
+    ats: greenhouse
+    id: zscaler
+    bucket: B
+    industry: zero-trust security (public, non-F500)
+  - name: Netskope
+    ats: greenhouse
+    id: netskope
+    bucket: B
+    industry: SASE security
+  - name: Wiz
+    ats: greenhouse
+    id: wizinc
+    bucket: B
+    industry: cloud security
+  - name: Rubrik
+    ats: greenhouse
+    id: rubrik
+    bucket: B
+    industry: data security (public, non-F500)
+  - name: Tanium
+    ats: greenhouse
+    id: tanium
+    bucket: B
+    industry: endpoint management
+  - name: Illumio
+    ats: ashby
+    id: illumio
+    bucket: B
+    industry: segmentation security
+  - name: SentinelOne
+    ats: greenhouse
+    id: sentinellabs
+    bucket: B
+    industry: endpoint security (public)
+  - name: Snyk
+    ats: ashby
+    id: snyk
+    bucket: B
+    industry: developer security
+  - name: 1Password
+    ats: ashby
+    id: 1password
+    bucket: B
+    industry: identity security
+  - name: OneTrust
+    ats: greenhouse
+    id: onetrust
+    bucket: B
+    industry: privacy / GRC SaaS
+  - name: KnowBe4
+    ats: greenhouse
+    id: knowbe4
+    bucket: B
+    industry: security awareness
+  - name: Vanta
+    ats: ashby
+    id: vanta
+    bucket: B
+    industry: compliance SaaS
+  - name: Kaseya
+    ats: greenhouse
+    id: kaseya
+    bucket: B
+    industry: IT management for MSPs
+  - name: Twilio
+    ats: greenhouse
+    id: twilio
+    bucket: B
+    industry: CPaaS (public, non-F500)
+  - name: Celonis
+    ats: greenhouse
+    id: celonis
+    bucket: B
+    industry: process mining SaaS
+  - name: UiPath
+    ats: ashby
+    id: uipath
+    bucket: B
+    industry: automation (public, non-F500)
+  - name: Dataiku
+    ats: greenhouse
+    id: dataiku
+    bucket: B
+    industry: data science platform
+  - name: Fivetran
+    ats: greenhouse
+    id: fivetran
+    bucket: B
+    industry: data integration
+  - name: Starburst
+    ats: greenhouse
+    id: starburst
+    bucket: B
+    industry: data analytics
+  - name: Ataccama
+    ats: lever
+    id: ataccama
+    bucket: B
+    industry: data quality
+  - name: Sumo Logic
+    ats: greenhouse
+    id: sumologic
+    bucket: B
+    industry: log analytics
+  - name: New Relic
+    ats: greenhouse
+    id: newrelic
+    bucket: B
+    industry: observability
+  - name: Sysdig
+    ats: lever
+    id: sysdig
+    bucket: B
+    industry: cloud security
+  - name: GitLab
+    ats: greenhouse
+    id: gitlab
+    bucket: B
+    industry: DevSecOps platform (public)
+  - name: Stripe
+    ats: greenhouse
+    id: stripe
+    bucket: B
+    industry: payments infrastructure
+  - name: Mirakl
+    ats: greenhouse
+    id: mirakl
+    bucket: B
+    industry: marketplace SaaS (Paris)
+  - name: Contentsquare
+    ats: lever
+    id: contentsquare
+    bucket: B
+    industry: digital experience analytics (Paris)
+  - name: Pigment
+    ats: lever
+    id: pigment
+    bucket: B
+    industry: planning SaaS (Paris)
+  - name: Algolia
+    ats: greenhouse
+    id: algolia
+    bucket: B
+    industry: search API
+  - name: Bloomreach
+    ats: greenhouse
+    id: bloomreach
+    bucket: B
+    industry: commerce SaaS
+  - name: Outreach
+    ats: lever
+    id: outreach
+    bucket: B
+    industry: sales engagement SaaS
+  - name: Samsara
+    ats: greenhouse
+    id: samsara
+    bucket: B
+    industry: IoT / connected operations (public, non-F500)
+
+  # Known without a public feed (no Greenhouse/Lever/Ashby/... board found, or blocked):
+  # Teamleader, Odoo, Sortlist, Unifiedpost, Backbase, HubSpot, Atlassian, CrowdStrike, Nutanix, Veeam,
+  # Cohesity, Rippling, Sinch, Seismic, ThoughtSpot, Alteryx, Genesys, Aircall, Dynatrace, Proofpoint,
+  # Rapid7, Tenable, Darktrace, Ivanti, Infoblox, Arista, Cegeka. They are still caught via Adzuna/Jooble/
+  # ICTjob/StepStone when they post there. Add one with `discover.py --url <job board link>` when found.

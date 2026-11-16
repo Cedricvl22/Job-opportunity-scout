@@ -1,0 +1,30 @@
+# Aggregator / job-board APIs used for coverage beyond companies.yaml.
+# Keys are read from environment variables, never stored here.
+aggregators:
+  adzuna:            # needs ADZUNA_APP_ID + ADZUNA_APP_KEY  (https://developer.adzuna.com)
+    pages: 2
+    max_days_old: 45
+    queries: ["enterprise account executive", "account executive", "strategic account manager", "key account manager IT",
+              "global account manager", "partner manager", "channel account manager", "alliance manager", "account director"]
+  jooble:            # needs JOOBLE_API_KEY  (https://jooble.org/api/about)
+    location: Belgium
+    pages: 1
+    queries: ["enterprise account executive", "account executive", "strategic account manager", "key account manager IT",
+              "partner manager", "channel account manager", "alliance manager", "account director"]
+  arbeitnow:         # no key
+    pages: 5
+  remotive:          # no key. DISABLED: remotive.com/robots.txt disallows /api/ (checked 2026-11-16)
+    enabled: false
+    disabled_reason: "robots.txt disallows /api/"
+    category: sales-business
+  ictjob:            # Belgian IT job board. DISABLED: keyword search only works through /*/ajax/, which robots.txt
+    enabled: false   # disallows; the static pages ignore keywords (checked 2026-11-16). Re-enable if that changes.
+    disabled_reason: "keyword search only via /ajax/ (disallowed by robots.txt)"
+    queries: ["account executive", "account manager", "key account manager", "partner manager", "channel manager", "alliance manager", "business development manager"]
+  stepstone:         # StepStone.be listing pages by path slug (query-string search is disallowed by robots.txt); no key
+    slugs: ["account-executive", "enterprise-account-executive", "account-manager-ict", "key-account-manager", "strategic-account-manager",
+            "partner-manager", "channel-manager", "alliance-manager", "account-director"]
+# Checked and NOT used (reason reported in README):
+#   VDAB   - robots.txt disallows /api/vindeenjob/, /vacatures/, /zoeken/ for all bots
+#   Jobat  - Cloudflare bot challenge on search pages
+#   LinkedIn, Indeed, Glassdoor - forbid scraping / require login

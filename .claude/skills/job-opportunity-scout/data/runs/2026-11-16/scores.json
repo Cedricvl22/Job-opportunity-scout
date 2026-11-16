@@ -1,0 +1,437 @@
+[
+ {
+  "id": "5242806014cf",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "A",
+  "role_type": "Partner Sales Executive (partner-led new logo)",
+  "scores": {
+   "builds": 2,
+   "aspirations": 2,
+   "pay": 2,
+   "location": 2
+  },
+  "ote_low": 100000,
+  "ote_high": 130000,
+  "pay_confidence": "good estimate",
+  "why": "Partner-led new-logo hunting in a dedicated BeLux territory (incl. retail, logistics), asking 3+ yrs software sales with Dutch/English: close to your HPE hunting and partner co-sell, with Siemens-group stability.",
+  "risk": "Wants software (not services/infra) sales track record in construction/utilities verticals; posted July 2026, so the requisition may be far along."
+ },
+ {
+  "id": "4b4629178367",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Enterprise AE (hunter, named accounts)",
+  "scores": {
+   "builds": 2,
+   "aspirations": 2,
+   "pay": 2,
+   "location": 2
+  },
+  "ote_low": 130000,
+  "ote_high": 180000,
+  "pay_confidence": "good estimate",
+  "why": "Named enterprise + digital-native list in Belgium, full-cycle hunting with C-level, at one of the strongest sales organisations in tech: big step in sales craft and deal complexity.",
+  "risk": "Very high hiring bar and payments is a new domain; likely home-based in Belgium reporting into an Amsterdam/Dublin team."
+ },
+ {
+  "id": "5f235da58452",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Territory / Mid-Market AE",
+  "scores": {
+   "builds": 2,
+   "aspirations": 2,
+   "pay": 2,
+   "location": 2
+  },
+  "ote_low": 165000,
+  "ote_high": 198000,
+  "pay_confidence": "stated",
+  "why": "Belgium territory AE at a public cloud-security vendor, hunting plus expansion through channel partners; stated EU pay-transparency OTE 165-198K, technical depth in SASE/zero trust.",
+  "risk": "Mid-market not enterprise accounts, asks 4+ yrs quota-carrying (you have ~3 in quota roles) and prefers fluent French and Dutch."
+ },
+ {
+  "id": "791b53596163",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Enterprise AE (Public Sector)",
+  "scores": {
+   "builds": 1,
+   "aspirations": 3,
+   "pay": 2,
+   "location": 1
+  },
+  "ote_low": 161400,
+  "ote_high": 255300,
+  "pay_confidence": "stated",
+  "why": "Enterprise AE for Belgian public-sector accounts selling search, observability and security platform; stated OTE 161-255K and strong technical upskilling (MEDDPICC, cloud consumption).",
+  "risk": "No public-sector or procurement track record yet, French likely needed for federal accounts, and the posting dates from May 2026."
+ },
+ {
+  "id": "28d36baa8464",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Senior Enterprise AE",
+  "scores": {
+   "builds": 1,
+   "aspirations": 2,
+   "pay": 2,
+   "location": 2
+  },
+  "ote_low": 110000,
+  "ote_high": 150000,
+  "pay_confidence": "good estimate",
+  "why": "Senior enterprise AE hunting a targeted account list from Belgium for a Series B data & AI skills platform used by 80% of the Fortune 1000.",
+  "risk": "Requires 5+ yrs quota-carrying and a MUST of selling data analytics/visualisation to C-level; L&D/edtech is away from your infra focus."
+ },
+ {
+  "id": "ad9e9e2f252b",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Key Account Manager (industrial software)",
+  "scores": {
+   "builds": 2,
+   "aspirations": 2,
+   "pay": 1,
+   "location": 2
+  },
+  "ote_low": 75000,
+  "ote_high": 100000,
+  "pay_confidence": "good estimate",
+  "why": "Key accounts in manufacturing for a PTC (PLM/IoT) partner scale-up in Leuven; stated base 4,500-6,000/month plus commission, bonus and car, building technical depth in industrial software.",
+  "risk": "Asks 5+ yrs B2B sales; OTE clears 85K only at the top of the base band plus commission (base stated, OTE estimated)."
+ },
+ {
+  "id": "539eb6393bd5",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Alliance Manager (Microsoft)",
+  "scores": {
+   "builds": 1,
+   "aspirations": 3,
+   "pay": 1,
+   "location": 2
+  },
+  "ote_low": 90000,
+  "ote_high": 130000,
+  "pay_confidence": "rough guess",
+  "why": "Own Aikido's Microsoft co-sell, Marketplace and partner motion from Ghent at an $85M-funded security scale-up: a direct route into hyperscaler alliance work.",
+  "risk": "Expects proven ISV-Microsoft alliance and Marketplace ops experience you don't have yet; pay not published."
+ },
+ {
+  "id": "3abf8cc0d1e4",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Account Executive (security)",
+  "scores": {
+   "builds": 1,
+   "aspirations": 2,
+   "pay": 1,
+   "location": 2
+  },
+  "ote_low": 80000,
+  "ote_high": 115000,
+  "pay_confidence": "rough guess",
+  "why": "Full-cycle AE in Ghent for Aikido's AI pentest product, mixing direct and partner sales at a fast-growing, well-funded Belgian security start-up.",
+  "risk": "Wants offensive-security selling background, part inbound-led and SMB/mid-market sized deals; London or Ghent, pay not published."
+ },
+ {
+  "id": "7697c5ec3c32",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "B",
+  "role_type": "Account Executive",
+  "scores": {
+   "builds": 1,
+   "aspirations": 2,
+   "pay": 1,
+   "location": 2
+  },
+  "ote_low": 75000,
+  "ote_high": 105000,
+  "pay_confidence": "rough guess",
+  "why": "All-round AE in Ghent (inbound + outbound) at a Belgian security scale-up with real traction.",
+  "risk": "Posting has been live since Oct 2024 (likely evergreen), smaller deals and partly inbound: risk of a step back in deal size."
+ },
+ {
+  "id": "06e96dac8ae3",
+  "keep": true,
+  "drop_reason": "",
+  "bucket": "A",
+  "role_type": "Senior Key Account Manager (AV / workplace)",
+  "scores": {
+   "builds": 1,
+   "aspirations": 1,
+   "pay": 1,
+   "location": 1
+  },
+  "ote_low": 70000,
+  "ote_high": 90000,
+  "pay_confidence": "rough guess",
+  "why": "Senior KAM for BENELUX workplace/AV projects at Axians (VINCI Energies, Global 500), strategic partnerships with regular international travel.",
+  "risk": "Audiovisual integration is adjacent to, not on, your IT-infra path; Roeselare is ~1h30 from Antwerp and 85K OTE is uncertain."
+ },
+ {
+  "id": "be6472886ba9",
+  "keep": false,
+  "drop_reason": "post-sales retention account management (customer success-like); pay below floor"
+ },
+ {
+  "id": "6ef62136d34c",
+  "keep": false,
+  "drop_reason": "UK-based evergreen pipeline posting, not an open Belgian role"
+ },
+ {
+  "id": "ebb3df9650b1",
+  "keep": false,
+  "drop_reason": "needs fluent French + government network; ~120-person company, pay likely below floor"
+ },
+ {
+  "id": "2007606c357a",
+  "keep": false,
+  "drop_reason": "UK & Ireland territory, UK-based"
+ },
+ {
+  "id": "c028f9d0da96",
+  "keep": false,
+  "drop_reason": "security-industry background required; Securitas is neither Fortune 500 nor a tech scale-up"
+ },
+ {
+  "id": "8f021941bc2c",
+  "keep": false,
+  "drop_reason": "native French required; Securitas is neither Fortune 500 nor a tech scale-up"
+ },
+ {
+  "id": "e32b9f4e6f17",
+  "keep": false,
+  "drop_reason": "early-stage solar start-up, 2-5 yrs AE profile; 85K OTE implausible"
+ },
+ {
+  "id": "71d171b4539c",
+  "keep": false,
+  "drop_reason": "mid-size Belgian document-management firm via recruiter: neither Fortune 500 nor tech scale-up; NL/EN/FR fluent required"
+ },
+ {
+  "id": "ca74823d514c",
+  "keep": false,
+  "drop_reason": "remote eligibility list (IE/FR/DE/ES/UK) excludes Belgium"
+ },
+ {
+  "id": "ff2da4a14ce3",
+  "keep": false,
+  "drop_reason": "VINCI (Global 500) but regional integrator account manager; 85K OTE implausible"
+ },
+ {
+  "id": "0eef63642f73",
+  "keep": false,
+  "drop_reason": "remote role based in Germany"
+ },
+ {
+  "id": "cfe1222058b2",
+  "keep": false,
+  "drop_reason": "inside sales role"
+ },
+ {
+  "id": "39ef105c3896",
+  "keep": false,
+  "drop_reason": "UK-based evergreen pipeline posting, not an open Belgian role"
+ },
+ {
+  "id": "09b1e07a0b1a",
+  "keep": false,
+  "drop_reason": "fluent German required"
+ },
+ {
+  "id": "fdf0697555a6",
+  "keep": false,
+  "drop_reason": "UK-based (GBP benefits), Belgium eligibility not stated"
+ },
+ {
+  "id": "08b0f565fdfc",
+  "keep": false,
+  "drop_reason": "fluent German required"
+ },
+ {
+  "id": "485fe0bb58a2",
+  "keep": false,
+  "drop_reason": "requires 6-10 yrs public-sector SaaS sales plus NATO clearance: two levels above current seniority"
+ },
+ {
+  "id": "8de28b48dd10",
+  "keep": false,
+  "drop_reason": "customer success team role, remote with no Belgium link"
+ },
+ {
+  "id": "8e9363faf478",
+  "keep": false,
+  "drop_reason": "existing-customer upsell role (CS-like) at start-up; est. OTE 60-85K below floor"
+ },
+ {
+  "id": "d380cff2ff5f",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "e0f9f5db8aa8",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "d12c4bc88171",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "b113303a3e20",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "26b6a4efbcb2",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "d1dd98d0a554",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "c764ce173d20",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "7b4ffd014ec2",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "5d4dfdd02e44",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "dbb1a65a6461",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "9777bcbf1f67",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "7d65ca3ea237",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "57b59777e53b",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "7944c2b8eff3",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "6e96c6bfe6aa",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "856bab85ef81",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "27b3f360905c",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "c173d97a8fdf",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "b87ce85a33f7",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "5a42db38b47a",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "0868d6dc134f",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "7c99118a43e4",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "f318988bb927",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "56c20c372ef1",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "e2b4d911f0a1",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "57d8054b2a08",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "1f458eab85d1",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "2580377428ea",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "2846cc8ddc62",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "b1274542c7ce",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "4515a189a8e4",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ },
+ {
+  "id": "0553a0e0a74a",
+  "keep": false,
+  "drop_reason": "not Fortune 500 and not a tech start-up/scale-up (local SMB / non-IT / recruiter-anonymised); pay floor unlikely"
+ }
+]

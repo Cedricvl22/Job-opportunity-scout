@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "date": "2026-11-16",
+  "run_id": 2,
+  "collected": 1645,
+  "unique": 1174,
+  "already_known": 51,
+  "new_after_filter": 0,
+  "pending_for_scoring": 0,
+  "drop_reasons": {
+   "title excluded": 512,
+   "title not a target role": 434,
+   "location outside target": 174,
+   "requires 10+ years": 2,
+   "requires 8+ years": 1
+  },
+  "sources_ok": 6,
+  "sources_failed": []
+ },
+ "candidates": []
+}

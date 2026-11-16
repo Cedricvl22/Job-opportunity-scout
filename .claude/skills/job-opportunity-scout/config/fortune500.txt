@@ -1,0 +1,141 @@
+# Companies on the Fortune 500 (US) or Fortune Global 500 that have a presence in Belgium.
+# Used to put aggregator results (Adzuna/Jooble/boards) into Bucket A. One name per line.
+# Names are matched after normalisation (case, punctuation and suffixes like Inc/NV/Belgium ignored).
+# IT / tech / telecom
+Microsoft
+Alphabet
+Google
+Amazon
+Amazon Web Services
+AWS
+Apple
+IBM
+Oracle
+Cisco
+Cisco Systems
+Dell
+Dell Technologies
+Salesforce
+Intel
+HP
+HP Inc
+Broadcom
+VMware
+Adobe
+ServiceNow
+Workday
+Palo Alto Networks
+Kyndryl
+DXC Technology
+Cognizant
+Accenture
+Nvidia
+AMD
+Qualcomm
+Micron
+Motorola Solutions
+Equinix
+Insight
+Insight Enterprises
+CDW
+Visa
+Mastercard
+Uber
+Booking Holdings
+SAP
+Siemens
+Schneider Electric
+Deutsche Telekom
+T-Systems
+Orange
+Orange Business
+Vodafone
+Telefonica
+NTT
+NTT Data
+Hitachi
+Hitachi Vantara
+Fujitsu
+Samsung
+Samsung Electronics
+LG Electronics
+Lenovo
+Sony
+Panasonic
+Huawei
+Bosch
+Capgemini
+ABB
+Honeywell
+General Electric
+GE Vernova
+GE HealthCare
+3M
+Johnson Controls
+Thermo Fisher Scientific
+Danaher
+# Other industries with Belgian operations
+Johnson & Johnson
+Janssen
+Pfizer
+Merck
+MSD
+AbbVie
+Bristol-Myers Squibb
+Eli Lilly
+GSK
+Sanofi
+Novartis
+Roche
+Bayer
+BASF
+Dow
+ExxonMobil
+TotalEnergies
+Shell
+BP
+Engie
+AB InBev
+Anheuser-Busch InBev
+Nestle
+Unilever
+Procter & Gamble
+Coca-Cola
+PepsiCo
+Mondelez
+Kraft Heinz
+Toyota
+Toyota Motor Europe
+Volkswagen
+BMW
+Mercedes-Benz
+Stellantis
+Volvo
+Caterpillar
+John Deere
+Deere
+BNP Paribas
+BNP Paribas Fortis
+ING
+AXA
+Allianz
+Generali
+Ageas
+UPS
+FedEx
+DHL
+Deutsche Post
+DSV
+Maersk
+Ahold Delhaize
+Carrefour
+Aldi
+Lidl
+Schwarz Group
+IKEA
+Arcelor Mittal
+ArcelorMittal
+Saint-Gobain
+Air Liquide
+Linde
+Accor

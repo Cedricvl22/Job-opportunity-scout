@@ -1,0 +1,56 @@
+[
+ {
+  "source": "greenhouse:elastic",
+  "company": "Elastic",
+  "status": "ok",
+  "fetched": 405,
+  "kept": 0,
+  "seconds": 3.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:netskope",
+  "company": "Netskope",
+  "status": "ok",
+  "fetched": 124,
+  "kept": 0,
+  "seconds": 4.2,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:stripe",
+  "company": "Stripe",
+  "status": "ok",
+  "fetched": 791,
+  "kept": 0,
+  "seconds": 5.6,
+  "error": ""
+ },
+ {
+  "source": "lever:mendix",
+  "company": "Mendix",
+  "status": "ok",
+  "fetched": 43,
+  "kept": 0,
+  "seconds": 4.2,
+  "error": ""
+ },
+ {
+  "source": "recruitee:aikidosecurity",
+  "company": "Aikido Security",
+  "status": "ok",
+  "fetched": 77,
+  "kept": 0,
+  "seconds": 3.3,
+  "error": ""
+ },
+ {
+  "source": "stepstone:stepstone",
+  "company": "stepstone",
+  "status": "ok",
+  "fetched": 205,
+  "kept": 0,
+  "seconds": 13.5,
+  "error": ""
+ }
+]

@@ -1,0 +1,90 @@
+# Pre-filter rules applied in code BEFORE anything reaches Claude's scoring step.
+# All patterns are case-insensitive Python regular expressions.
+
+title:
+  # A title must match at least one include pattern ...
+  include:
+    - '\baccount executive\b'
+    - '\b(enterprise|strategic|named|global|key|major|corporate|territory|regional|senior|sr\.?)\s+account\s+(manager|executive|director|lead)\b'
+    - '\baccount ?manager\b'          # incl. Dutch "accountmanager"
+    - '\baccount director\b'
+    - '\bclient (executive|director|partner|account|manager)\b'
+    - '\bcustomer (executive|account manager)\b'
+    - '\b(partner|channel|alliances?|ecosystem|distribution)\s+(business|account|sales|development|manager|executive|director|lead)'
+    - '\b(partner|channel|alliances?) manager\b'
+    - '\balliances? (manager|director|lead)\b'
+    - '\bpartner (business )?development\b'
+    - '\b(enterprise|strategic|solution|solutions|field|platform|cloud|security|data|infrastructure|services) (sales|seller)\b'
+    - '\bsales (executive|specialist|representative)\b'
+    - '\bbusiness development (manager|executive|director)\b'
+    - '\bgrands? comptes?\b'           # French: key accounts
+    - '\bing[ée]nieur commercial\b'
+    - '\bnew business (manager|executive)\b'
+  # ... and none of the exclude patterns.
+  exclude:
+    - '\b(sdr|bdr|adr)\b'
+    - '\bsales development\b'
+    - '\bbusiness development (rep|representative|associate)\b'
+    - '\binside (sales|account|accountmanager)\b'
+    - '\binbound\b'
+    - '\brenewals?\b'
+    - '\bcustomer success\b'
+    - '\bcsm\b'
+    - '\b(head|vp|vice president|chief|cro)\b'
+    - '\bsales (director|lead|leader)\b'
+    - '(?<!enterprise )(?<!account )(?<!territory )(?<!channel )(?<!partner )\bsales manager\b'
+    - '\bdirector,? (of )?(sales|partnerships)\b'
+    - '\b(team|group) (lead|leader|manager)\b'
+    - '\bmanager,\s'                  # "Manager, Enterprise Sales" = people manager
+    - '\bmanaging director\b'
+    - '\b(intern|internship|stage|stagiair|student|trainee|graduate|apprentice|werkstudent)\b'
+    - '\b(junior|jr\.?|associate)\b'
+    - '\b(pre-?sales|solutions? (engineer|architect|consultant)|sales engineer|technical account manager)\b'
+    - '\b(marketing|operations|ops|enablement|programs?|analyst|recruit\w*|talent|finance|legal|payroll|accounting|accountant)\b'
+    - '\b(nurse|pharma|medical|clinical)\b'
+
+location:
+  # Location text (or description, when the location field is vague) must match one of these.
+  belgium:
+    - '\bbelgi(um|que|ë|e|en)\b'
+    - '\bbrussel[s]?\b'
+    - '\bbruxelles\b'
+    - '\bantwerp(en)?\b'
+    - '\banvers\b'
+    - '\b(ghent|gent|gand)\b'
+    - '\bdiegem\b'
+    - '\bzaventem\b'
+    - '\bmachelen\b'
+    - '\bmechelen\b'
+    - '\bvilvoorde\b'
+    - '\b(leuven|louvain)\b'
+    - '\bhasselt\b'
+    - '\bkortrijk\b'
+    - '\b(wavre|waterloo|nivelles|mont-saint-guibert|louvain-la-neuve)\b'
+    - '\b(liège|liege|namur|charleroi|mons)\b'
+    - '\bbenelux\b'
+    - '(?-i:,\s*BE\b)'      # country code, case-sensitive
+    - '(?-i:\bBEL\b)'
+  # Remote roles that are not explicitly tied to Belgium still pass, but are
+  # flagged remote-unconfirmed and receive a lower location score.
+  remote_region:
+    - '\b(emea|europe|european|eu|benelux|anywhere|global)\b'
+
+experience:
+  # Drop when the posting requires at least this many years.
+  max_years_required: 8
+
+# Companies that must never appear (current employer and HPE-owned brands).
+exclude_companies:
+  - 'hewlett packard enterprise'
+  - '\bhpe\b'
+  - '\baruba( networks)?\b'
+  - '\bjuniper( networks)?\b'
+  - '\bmorpheus data\b'
+  - '\bopsramp\b'
+  - '\bzerto\b'
+  - '\bathonet\b'
+  - '\bcray\b'
+  - '\bnimble storage\b'
+  - '\bsilicon graphics\b'
+  - '\baxis security\b'
