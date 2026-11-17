@@ -1,0 +1,40 @@
+{
+ "note": "Sheet read 2026-11-17, second run (Jobs!A1:O): 7 data rows, all Status 'New', Notes empty; only Link/Status/Notes kept here, which is all the merge uses",
+ "rows": [
+  {
+   "Link": "https://jobs.lever.co/mendix/b12d0e48-5c8f-4c21-b145-bb08811a3aa5",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://www.stepstone.be/vacatures--Key-Accountmanager-Roeselare-Axians-Audiovisual-Belgium--2254400-inline.html",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://www.netskope.com/company/careers/open-positions/?gh_jid=8249455",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://stripe.com/jobs/search?gh_jid=8284970",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://jobs.elastic.co/jobs?gh_jid=7768040&gh_jid=7768040",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://www.stepstone.be/vacatures--Senior-Enterprise-Account-Executive-Belgium-DataCamp-Belgium-BV--2190375-inline.html",
+   "Status": "New",
+   "Notes": ""
+  },
+  {
+   "Link": "https://aikidosecurity.recruitee.com/o/microsoft-alliance-manager",
+   "Status": "New",
+   "Notes": ""
+  }
+ ]
+}
