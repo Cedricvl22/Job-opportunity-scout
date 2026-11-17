@@ -1,0 +1,338 @@
+{
+ "stats": {
+  "date": "2026-11-17",
+  "run_id": 5,
+  "collected": 10243,
+  "unique": 7925,
+  "already_known": 55,
+  "new_after_filter": 0,
+  "pending_for_scoring": 0,
+  "drop_reasons": {
+   "title not a target role": 3782,
+   "title excluded": 3108,
+   "location outside target": 972,
+   "location not confirmed as Belgium/remote-Europe": 5,
+   "requires 10+ years": 2,
+   "requires 8+ years": 1
+  },
+  "sources_ok": 53,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dell.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "lever:extremenetworks",
+    "company": "Extreme Networks",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: HTTP 500 from api.lever.co"
+   },
+   {
+    "source": "lever:topdesk",
+    "company": "TOPdesk",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: ADZUNA_APP_ID / ADZUNA_APP_KEY not set"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "lever:deliverect",
+    "company": "Deliverect",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: HTTP 500 from api.lever.co"
+   },
+   {
+    "source": "lever:mendix",
+    "company": "Mendix",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "lever:pigment",
+    "company": "Pigment",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "lever:ataccama",
+    "company": "Ataccama",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "lever:sysdig",
+    "company": "Sysdig",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "lever:contentsquare",
+    "company": "Contentsquare",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "lever:outreach",
+    "company": "Outreach",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: ReadTimeout: HTTPSConnectionPool(host='api.lever.co', port=443): Read timed out. (read timeout=25)"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: https://jobs.sap.com/search/?locationsearch=Belgium shows a bot-protection challenge; not bypassed"
+   }
+  ]
+ },
+ "candidates": []
+}
