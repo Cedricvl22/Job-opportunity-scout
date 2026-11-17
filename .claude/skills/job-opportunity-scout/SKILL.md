@@ -60,7 +60,7 @@ Show the user the printed report as is: the first line (date, collected, after f
 ## 5. Google Sheet sync
 The tracker is mirrored to a Google Sheet named **"Job Opportunities - Cédric"** in the user's Drive. Its ID and tab are stored in `data/sheet.json` (`{"spreadsheetId": "...", "tab": "Jobs"}`). Before the first Google call, load the `google-workspace` skill if it is available.
 - If the Google Sheets/Drive tools are available and `data/sheet.json` exists:
-  1. Read the sheet (`get_values` on `<tab>!A1:N`) and save them to `data/runs/<today>/sheet_values.json`.
+  1. Read the sheet (`get_values` on `<tab>!A1:O`) and save them to `data/runs/<today>/sheet_values.json`.
   2. Run `python3 scripts/tracker.py merge-sheet data/runs/<today>/sheet_values.json`. This pulls the user's Status/Notes edits from the sheet into the local files.
   3. Run `python3 scripts/tracker.py sheet-rows data/runs/<today>/sheet_values.json` and append the returned `rows` to the sheet with `append_values` on `<tab>!A1`. Send Fit score as a number and everything else as text. If `sheet_has_header` is false, write `header` first.
 - If `data/sheet.json` does not exist, **offer** to create the sheet. On yes, create it in the user's Drive, write the header and all rows from `sheet-rows`, and save its ID to `data/sheet.json`.

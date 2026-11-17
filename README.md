@@ -125,7 +125,7 @@ On macOS, `launchd` or the Shortcuts app works too; cron is the simplest.
 
 ## Tracker
 
-`data/jobs.csv` and `data/jobs.xlsx` have the columns *Date found, Job Title, Company, Bucket, Role type, Location, Link, Fit score, Est. OTE range, Pay confidence, Why it fits, Main risk, Status, Notes*. Rows are only ever appended. You can edit **Status** and **Notes** in the CSV, the XLSX or the Google Sheet: every run reads your edits back first and never overwrites them. If two places hold different edits, the sheet wins, then the XLSX, then the CSV.
+`data/jobs.csv` and `data/jobs.xlsx` have the columns *Date found, Date posted, Job Title, Company, Bucket, Role type, Location, Link, Fit score, Est. OTE range, Pay confidence, Why it fits, Main risk, Status, Notes*. Rows are only ever appended. You can edit **Status** and **Notes** in the CSV, the XLSX or the Google Sheet: every run reads your edits back first and never overwrites them. If two places hold different edits, the sheet wins, then the XLSX, then the CSV.
 
 ## Privacy and safety
 

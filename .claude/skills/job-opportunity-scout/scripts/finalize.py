@@ -151,7 +151,7 @@ def main(argv=None):
             db.set_state(con, j["id"], "shown", s["fit"], s)
         con.commit()
         rows = [{
-            "Date found": today, "Job Title": j["title"], "Company": j["company"],
+            "Date found": today, "Date posted": j.get("posted") or "", "Job Title": j["title"], "Company": j["company"],
             "Bucket": "Fortune 500" if s["bucket"] == "A" else "Start-up/Scale-up", "Role type": s["role_type"],
             "Location": j["location"], "Link": j["url"], "Fit score": s["fit"],
             "Est. OTE range": f"{fmt_k(s['ote_low'])}-{fmt_k(s['ote_high'])} EUR", "Pay confidence": s["pay_confidence"],

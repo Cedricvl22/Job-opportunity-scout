@@ -23,7 +23,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA_DIR, normalize_url  # noqa: E402
 
-COLUMNS = ["Date found", "Job Title", "Company", "Bucket", "Role type", "Location", "Link", "Fit score",
+COLUMNS = ["Date found", "Date posted", "Job Title", "Company", "Bucket", "Role type", "Location", "Link", "Fit score",
            "Est. OTE range", "Pay confidence", "Why it fits", "Main risk", "Status", "Notes"]
 USER_COLS = ("Status", "Notes")
 CSV_PATH = DATA_DIR / "jobs.csv"
@@ -118,7 +118,7 @@ def write(rows: list[dict]):
     for cell in ws[1]:
         cell.font = Font(bold=True, color="FFFFFF")
         cell.fill = PatternFill("solid", fgColor="1F4E78")
-    widths = {"Date found": 12, "Job Title": 38, "Company": 20, "Bucket": 14, "Role type": 20, "Location": 24, "Link": 40,
+    widths = {"Date found": 12, "Date posted": 12, "Job Title": 38, "Company": 20, "Bucket": 14, "Role type": 20, "Location": 24, "Link": 40,
               "Fit score": 9, "Est. OTE range": 16, "Pay confidence": 14, "Why it fits": 60, "Main risk": 45, "Status": 12, "Notes": 30}
     for i, c in enumerate(COLUMNS, 1):
         ws.column_dimensions[ws.cell(1, i).column_letter].width = widths.get(c, 15)
@@ -130,7 +130,7 @@ def write(rows: list[dict]):
         if lc.value:
             lc.hyperlink = lc.value
             lc.font = Font(color="0563C1", underline="single")
-    ws.freeze_panes = "C2"
+    ws.freeze_panes = "D2"
     ws.auto_filter.ref = ws.dimensions
     tmpx = XLSX_PATH.with_suffix(".xlsx.tmp")
     wb.save(tmpx)
@@ -186,10 +186,10 @@ def main(argv):
         print(json.dumps({"header": COLUMNS, "rows": missing, "sheet_has_header": bool(sheet)}, ensure_ascii=False))
     elif cmd == "show":
         rows = load()
-        print("| " + " | ".join(COLUMNS[:8] + ["Status"]) + " |")
-        print("|" + "---|" * 9)
+        print("| " + " | ".join(COLUMNS[:9] + ["Status"]) + " |")
+        print("|" + "---|" * 10)
         for r in rows:
-            print("| " + " | ".join(str(r.get(c, "")).replace("|", "/") for c in COLUMNS[:8] + ["Status"]) + " |")
+            print("| " + " | ".join(str(r.get(c, "")).replace("|", "/") for c in COLUMNS[:9] + ["Status"]) + " |")
     else:
         print(__doc__)
         return 1
