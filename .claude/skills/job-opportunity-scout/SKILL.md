@@ -69,6 +69,12 @@ The tracker is mirrored to a Google Sheet named **"Job Opportunities - Cédric"*
 ## 6. Persist (cloud sessions / git checkout)
 If `$SKILL` is inside a git repository, commit `data/` (DB, tracker, run folder) with message `scout run <today>` and push to the current branch. Otherwise the job history is lost when a cloud container is reclaimed.
 
+## 7. Notify by email (scheduled runs, or when the user asks)
+If a Gmail tool is available, send ONE email from the user's own Gmail to the user's own address (never to anyone else):
+- Subject: `Job scout: <N> new jobs found (<date>)` where N is the number of roles shown this run (`0 new jobs` when none).
+- Body: the link to the Google Sheet (`https://docs.google.com/spreadsheets/d/<spreadsheetId from data/sheet.json>/edit`), then one line per shown role (title, company, fit score, link), then one line listing sources that failed.
+- Send it even when N is 0, so a silent failure is never mistaken for "nothing new". If collection itself failed, say so in the subject.
+
 ## Maintenance
 - Add a company: `python3 scripts/discover.py "Company" --bucket B --industry "SaaS" --add`, or `--url <job board link>`.
 - Health check of all feeds: `python3 scripts/discover.py --check`.

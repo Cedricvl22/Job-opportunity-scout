@@ -107,11 +107,7 @@ python3 scripts/tracker.py show                       # print the tracker
 
 ## Scheduling a weekly run
 
-**Option A: Claude Code scheduled task (cloud, no computer needed).** In a Claude Code session in this repo, say:
-
-> Create a weekly scheduled task, Mondays 07:40 Europe/Brussels, that starts a fresh session in this repo with the prompt "scout jobs, then sync the Google Sheet and commit + push data/".
-
-Give the scheduled task the Google Sheets/Drive connectors so it can sync. Each run starts from a fresh clone and commits `data/` (DB + tracker) back, so the history persists and no job is suggested twice.
+**Option A: Claude Code scheduled task (cloud, no computer needed).** This is set up: the task "Job scout" runs every Tuesday and Saturday at 07:43 Europe/Brussels. Each run starts a fresh cloud session on this repo, scouts, syncs the Google Sheet, commits `data/` to `main`, sends a push notification, and emails you (from your own Gmail, to yourself) with the number of new jobs in the subject and a link to the sheet. Ask Claude to "list my scheduled tasks" to change or pause it.
 
 **Option B: cron on your own computer** (needs the Claude Code CLI, logged in):
 
