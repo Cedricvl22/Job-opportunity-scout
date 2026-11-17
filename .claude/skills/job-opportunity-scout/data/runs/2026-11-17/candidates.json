@@ -1,0 +1,277 @@
+{
+ "stats": {
+  "date": "2026-11-17",
+  "run_id": 3,
+  "collected": 10597,
+  "unique": 8188,
+  "already_known": 57,
+  "new_after_filter": 1,
+  "pending_for_scoring": 1,
+  "drop_reasons": {
+   "title not a target role": 3863,
+   "title excluded": 3229,
+   "location outside target": 1025,
+   "location not confirmed as Belgium/remote-Europe": 10,
+   "requires 10+ years": 2,
+   "requires 8+ years": 1
+  },
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dell.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: ADZUNA_APP_ID / ADZUNA_APP_KEY not set"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: https://jobs.sap.com/search/?locationsearch=Belgium shows a bot-protection challenge; not bypassed"
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Accountmanager",
+   "company": "Introduce",
+   "location": "Loppem, Sint Niklaas, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Accountmanager-Loppem-Sint-Niklaas-Introduce--2255118-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-16",
+   "description": "Introductie\n Gheeraert , een groeiend familiaal bedrijf met een hart voor de mensen, is gespecialiseerd in transport & logistics met een toegevoegde waarde, groupage transport alsook pallet- en colli distributie . \n Zij streven naar langdurige partnerships met hun klanten en medewerkers en investeren continu in optimalisatie en excellente klantenbeleving.\n Gheeraert, met hoofdzetel in Loppem, heeft een eigen netwerk met 4 depots (te Beernem, Kuurne, Sint-Niklaas en Sint-Truiden) alsook logistieke stockage (te Loppem, Kuurne en Brugge). \n Zij realiseren een omzet van 70 MIO euro, hebben 330 Gheroes in dienst en dragen klantentevredenheid en proces excellence  hoog in het vaandel, dit met een hoge mate van digitalisatie.\n Jouw verantwoordelijkheden\n Om hun groei te versterken is Transport Gheeraert op zoek naar een Accountmanager voor de regio West-België .\n In deze functie als Key Accountmanager: \n- Bezoek je actief klanten en prospecten in de regio Oost- en West Vlaanderen, Vlaams Brabant, Henegouwen en Noord-Frankrijk;\n- Bouw je de klantenportefeuille verder uit en detecteer je nieuwe prospecten door netwerkevenementen, beroepsorganisaties, leads en eigen opzoekwerk;\n- Ga je in gesprek met jouw klant en luister je naar hun specifieke behoeftes en biedt je na analyse gepaste oplossingen aan;\n- Breng je de specifieke business, processen, groeimogelijkheden van je klant in beeld om hun een excellente service te kunnen bieden;\n- Maak je prijsafspraken en sluit je een samenwerking af;\n- Volg je de opgestelde SLA op en werk je nauw samen met de Legal Department;\n- Sta je in voor de customer journey en tevredenheid van je klant;\n- Volg je de onboarding van je klant op in samenwerking met de interne stakeholders;\n- Voer je je klantendossiers voor opvolging, voorbereiding en rapportage in Salesforce in;\n- Denk je samen met de CEO mee in het optimaliseren van inkomstenstroom en winstgevendheid; \n- Rapporteer je aan de CEO.\n Jouw profiel\n- Je hebt bij voorkeur een diploma bachelor of master in een economische richting;\n- Je kan relevante minimum 3j ervaring voorleggen in de logistieke of transportsector ;\n- Je houdt van klantencontacten en kan duurzame relaties opbouwen;\n- Je bent resultaatsgericht , analytisch en hebt een oog voor operationele excellentie ;\n- Je bent perfect Nederlandstalig en je beheerst vlot de Franse taal.\n Ons aanbod\n- Je komt terecht in een dynamisch , familiaal bedrijf met een gericht t oekomstperspectief . Als Gheroe kom je terecht in een hecht team;\n- Een bedrijf met een sterke servicegraad en waar klanten en medewerkers centraal staan\n- Een marktconform salaris met mooi pakket extralegale voordelen, waaronder bedrijfswagen, sectorale vakantiedagen, opgebouwde anciënniteitsdagen, vrij te bepalen vakantie.\n Standplaats: hybride, Loppem, Kuurne of Sint-Niklaas\n Geïnteresseerd?\n Meer informatie? Contacteer Ilse Haustrate via ilse@introduce.be of 0474/37 39 85",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-16T08:58:42.81Z",
+    "location_class": "belgium"
+   },
+   "id": "752a1b73890b"
+  }
+ ]
+}
