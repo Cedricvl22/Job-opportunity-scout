@@ -1,0 +1,57 @@
+[
+ {
+  "id": "9814df9c11cc",
+  "keep": false,
+  "drop_reason": "Role requires German; C\u00e9dric has no German. Ghent hospitality-tech."
+ },
+ {
+  "id": "c7a32c56db80",
+  "keep": false,
+  "drop_reason": "No location given; Dutch Microsoft services partner, Belgium eligibility unconfirmed, not a funded tech scale-up."
+ },
+ {
+  "id": "c637d4b99985",
+  "keep": false,
+  "drop_reason": "SMB AE for France, remote; not Belgium and SMB scope."
+ },
+ {
+  "id": "c90b236161f9",
+  "keep": false,
+  "drop_reason": "Plywood/board materials, Brussels-Wallonia; not tech/IT, below pay floor."
+ },
+ {
+  "id": "b246ab7ec7ca",
+  "keep": false,
+  "drop_reason": "Metal industry staffing client; not tech/IT, pay implausible."
+ },
+ {
+  "id": "8a7070753fee",
+  "keep": false,
+  "drop_reason": "Non-enterprise field/SMB sales (security, medical software to practices, food retail); not tech enterprise, pay implausible."
+ },
+ {
+  "id": "efd1654afa10",
+  "keep": false,
+  "drop_reason": "Facility services; not tech/IT, pay implausible."
+ },
+ {
+  "id": "204cf04e7b01",
+  "keep": false,
+  "drop_reason": "Facility services; not tech/IT, pay implausible."
+ },
+ {
+  "id": "72be6c2718b0",
+  "keep": false,
+  "drop_reason": "Non-enterprise field/SMB sales (security, medical software to practices, food retail); not tech enterprise, pay implausible."
+ },
+ {
+  "id": "6d497ccad96c",
+  "keep": false,
+  "drop_reason": "Non-enterprise field/SMB sales (security, medical software to practices, food retail); not tech enterprise, pay implausible."
+ },
+ {
+  "id": "bcc500150283",
+  "keep": false,
+  "drop_reason": "Non-enterprise field/SMB sales (security, medical software to practices, food retail); not tech enterprise, pay implausible."
+ }
+]

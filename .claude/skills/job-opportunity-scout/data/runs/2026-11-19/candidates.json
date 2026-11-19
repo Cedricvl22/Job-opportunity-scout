@@ -1,0 +1,464 @@
+{
+ "stats": {
+  "date": "2026-11-19",
+  "run_id": 8,
+  "collected": 10628,
+  "unique": 8223,
+  "already_known": 61,
+  "new_after_filter": 0,
+  "pending_for_scoring": 11,
+  "drop_reasons": {
+   "title not a target role": 3878,
+   "title excluded": 3224,
+   "location outside target": 1051,
+   "location not confirmed as Belgium/remote-Europe": 6,
+   "requires 10+ years": 2,
+   "requires 8+ years": 1
+  },
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dell.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.adzuna.com/v1/api/jobs/be/search/1?app_id=ae6063af&app_key=20e672c2caf7cc68ae50a8404b7de3db&what=enterprise+account+executive&results_per_page=50&max_days_old=45&content-type=application%2Fjson"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: https://jobs.sap.com/search/?locationsearch=Belgium shows a bot-protection challenge; not bypassed"
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Account Executive - German speaker",
+   "company": "Lighthouse",
+   "location": "Ghent, Belgium (Barcelona Office)",
+   "url": "https://job-boards.eu.greenhouse.io/lighthouse/jobs/5028693101",
+   "source": "greenhouse:lighthouse",
+   "remote": "unknown",
+   "posted": "2026-11-05",
+   "description": "Our Mission: Why Lighthouse?  \n At Lighthouse, we’re on a mission to revolutionize commercial strategy as hospitality’s most powerful AI platform. We take the world's largest hotel data network and transform it into real-time intelligence that drives action. We don't just deliver insights; we empower businesses to make decisions that move revenue.  \n With $370M in Series C funding and over $100M in ARR, we are scaling at lightspeed. Our 850+ teammates across 35 countries aren't just building software—they are leveraging cutting-edge AI to help hoteliers be the first to act. Tens of thousands of hotels across 185 countries trust Lighthouse to execute their commercial strategy, including every one of the top 15 global chains and thousands of independent hotels that consistently outperform their markets. With Lighthouse AI, the intelligence gets deeper. Decisions get smarter. Actions get faster. We help hoteliers be first to act. \n Lighthouse Values: Our guiding light \n We are  Lumineers . Our shared values keep us on a collaborative path fostering a cultural and customer centric environment \n- Pursuit of greatness : We’re innovators who care deeply about our customers’ success. Our team brings their best work, stays curious, and delivers excellence through attention to detail \n- Meaningful work matters : We make every moment count by knowing what to deliver, why it matters, and how it drives Lighthouse forward \n- Elevate each other : We don’t just work together - we grow together. What unites us is understanding each other as people and working toward shared goals \n We’re more than just a workplace – we’re a community. Collaborative, fun, and deeply committed, we work hard together to revolutionize the hospitality sector. Are you ready to join us and shine brighter in the industry’s most exciting rocket-ship? 🚀 \n Job Details \n- 💼 Revenue  \n- 📍 Gent, Belgium \n- 🕜 Full-Time/Hybrid  \n What you will do \n You’ll be the face of Lighthouse for new customers, owning the full sales cycle from first cold touch to close. This is a hunter role: you carry a quota, you build your own pipeline, and you’re accountable to outcomes and success. No excuses, just results.  \n Your market is two-sided. You open net-new accounts that fit our ideal customer profile and have never spoken to us, and you turn low-adoption customers who use a single Lighthouse product into full-platform customers. In both cases the goal is the same: the whole commercial platform, not one module. Small, one-off transactions are not what this role is for. You think in terms of the full deal from the first conversation, and you have the patience and the process to run a complex, multi-stakeholder cycle to get there.  \n What makes this different: you won’t do it alone. Lighthouse is deploying an agent AI infrastructure — Enablement, Pre-Sales, and Coaching agents — alongside a modern revenue stack. AI handles the prep, the sequencing, and the pattern recognition so you can focus on what matters — building relationships, running sharp discovery, and closing deals. \n Where you will have impact \n Own your territory and your number. Build and execute a strategic territory plan to generate a net-new pipeline. Maintain 3x pipeline coverage, forecast honestly, and take full accountability for your results. Your quota is your commitment.  \n Hunt into net-new accounts. Cold, outbound prospecting into ideal customer profile accounts is the core of this role, not a supplement to inbound. Run an AI …[truncated]",
+   "bucket": "B",
+   "industry": "hospitality data SaaS (Ghent)",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "belgium"
+   },
+   "id": "9814df9c11cc"
+  },
+  {
+   "title": "Senior Sales Executive",
+   "company": "Hsogroupbv",
+   "location": "",
+   "url": "https://www.arbeitnow.nl/jobs/companies/hsogroupbv/senior-sales-executive-430099",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-17",
+   "description": "Senior Sales Executive – Managed Services  \n- In deze functie ben je verantwoordelijk voor het binnenhalen van Managed Services contracten bij bestaande en nieuwe klanten\n- Werken binnen een lokaal (Nederland/België) sales team in een internationale organisatie\n- Een duurzame carrière opbouwen binnen een groeiende Microsoft organisatie waar samenwerking en kennisdeling centraal staat\n In deze rol ben je verantwoordelijk voor het genereren van nieuwe leads voor Managed Services door o.a. gebruik te maken van onze business developers (inside sales), marketingafdeling, netwerken, samenwerking met Microsoft Sales en strategische partners en via partnerprogramma’s met o.a. Microsoft en Leapwork (BE & NL). Zodra je een kans identificeert, werk je nauw samen met onze presales specialisten om de deal te sluiten. Jij bent eindverantwoordeijk voor het closen van de contracten.\n Jouw reisgezelschap  \n Voor onze Managed Services portfolio zoeken we een Senior Sales Executive die zich richt op het winnen van nieuwe contracten bij klanten en prospects binnen de Benelux. Je maakt onderdeel uit van het Sales Team en rapporteert aan een Sales Team Manager. Managed Services bestaat uit zo’n 100 consultants in de Benelux en richt zich volledig op Microsoft technologieën.\n Jouw bijdrage aan de reis    \n- Je wint nieuwe contracten voor Application Management Services, Managed Cloud Services en Data & AI diensten op Azure binnen enterprise en upper mid-market;\n- Je vertegenwoordigt HSO bij klanten en prospects en onderhandelt over complexe servicecontracten;\n- Je signaleert markttrends en vertaalt deze naar concrete kansen binnen Managed Services;\n- Je weet nieuwe Managed Services kansen te identificeren;\n- Je werkt intensief samen met onze Managed Services teams en presales specialisten bij het opstellen van offertes en contracten;\n- Je initieert sales activiteiten met belangrijke partners (Microsoft, Leapwork);\n- Je zet samen met onze Business Developers (inside sales) en marketingafdeling leadgeneratieprogramma’s op en volgt ze actief op;\n- Je bent verantwoordelijk voor salesplanning o.b.v. portfolio- en marktanalyse;\n- Je begeleidt opportunity teams, ook wanneer deze internationaal zijn samengesteld.\n Wat neem jij mee?  \n- Minimaal HBO/WO-werk- en denkniveau;\n- Meerdere jaren ervaring in solution selling binnen IT-dienstverlening met aantoonbare commerciële successen;\n- Kennis van en ervaring met outsourcing van IT service in het Microsoft domein;\n- Uitstekende communicatieve en presentatievaardigheden in het Nederlands en Engels; kennis van Frans is een pre;\n- Sterke onderhandelingsvaardigheden en het vermogen om als sparringpartner HSO te vertegenwoordigen\n- Bereidheid om regelmatig te reizen binnen Benelux.   \n Wat verzorgen wij?   \n- Bij HSO reis je niet alleen voor een baan maar voor een carrière vol ontdekkingen. Naast een marktconform salaris en een prestatiegerichte bonus, krijg je praktische benodigdheden en beleving: \n- Flexibele werkplek: kies je basis Rotterdam, Veenendaal of thuiswerken, jij bepaalt de route; \n- Mobiliteitsvergoeding waarbij je of een auto kunt leasen of het bedrag toe kunt   \nvoegen aan je salaris. Daar bovenop krijg 100% betaald van de ov-kosten;  \n- Je kunt deelnemen aan het leasefietsplan;   \n- EUR 65,- netto vitaliteitsbudget, we vinden het belangrijk dat we gezond blijven en een veilige werkplek hebben, zowel op kantoor als remote;   \n- Op dag één start jouw onboardingprogramma, daarnaast krijg je een persoonlijk studi …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "belgium"
+   },
+   "id": "c7a32c56db80"
+  },
+  {
+   "title": "SMB Account Executive | France | Remote",
+   "company": "grafanalabs",
+   "location": "",
+   "url": "https://www.arbeitnow.fr/jobs/companies/grafanalabs/smb-account-executive-france-remote-127544",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-19",
+   "description": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . \n We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.\n You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.\n The Opportunity \n Grafana Labs is looking for an SMB Account Executive who will be responsible for prospecting and growing existing business across their assigned region. You will identify, nurture and close opportunities with existing customers. You will manage forecasts and track customer data. We're strong proponents of a consultative sales approach - learn about the customer's needs first before talking about our products. Your expertise will be critical in helping articulate the value of our products. \n What You’ll Be Doing \n- Identify new opportunities to expand Grafana usage within a set of current customers\n- Meet and exceed individual quarterly and annual sales goals\n- Manage all aspects of the sales process (prospecting, sales meetings, product demos, proofs of concept, proposals, negotiations and account management)\n- Cultivate sales through outbound prospecting and inbound leads\n- Be able to understand and convey the value of both Grafana Cloud and Grafana Enterprise\n- Become an expert in managing your sales pipeline in Salesforce\n- Manage quote creation, order processing, and day-to-day customer requests\n What Makes You a Great Fit \n- 1+ years of experience in software sales with a proven track record of exceeding targets in a competitive environment\n- Results driven mindset with the ability to identify opportunities, drive deals forward, and deliver measurable results\n- Excellent communication skills across all channels (in person, online, in writing) with the ability to build strong working relationships both in person and virtually\n- Strong interest in observability and technical sales \n- Self-starter mentality, thriving in fast-paced, high-growth environments where innovation and execution matter\n- Experience with Salesforce, Gong, Quoting tools, and Zoominfo is preferred\n- Familiarity with Command of the Message and MEDD(P)ICC sales methodologies is ideal\n Compensation & Rewards:  \n In France, the OTE compensation range for this role is EUR 87,000 - EUR 94,000.  Actual compensation may vary based on level, experience, and skillset as assessed throughout the interview process. All o …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "c637d4b99985"
+  },
+  {
+   "title": "Account Manager",
+   "company": "Altripan nv",
+   "location": "Brussel, Wallonië en Luxemburg, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Brussel-Wallonie-en-Luxemburg-Altripan-nv--2255274-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-18",
+   "description": "Altripan breidt het salesteam in België en Luxemburg uit. Voor de regio Brussel, Wallonië en Luxemburg zoeken we een gedreven account manager die onze klantenrelaties verder uitbouwt met dezelfde betrouwbaarheid en technisch onderbouwde aanpak waarop onze klanten dagelijks rekenen.\nHet gaat om een voltijdse functie met een vast contract.\n JOUW UITDAGING\n Als account manager ben je het vaste aanspreekpunt voor klanten en prospects in Brussel, Wallonië en Luxemburg. Je brengt het marktpotentieel in kaart, signaleert nieuwe kansen en begeleidt het volledige verkoopstraject: van prospectie en advies tot offerte en opvolging.\n JOUW ROL: HET VOLLEDIGE VERKOOPSTRAJECT IN HANDEN NEMEN \n- Een onderbouwd businessplan opstellen en het marktpotentieel binnen jouw regio gericht ontwikkelen.\n- Duurzame relaties opbouwen met bestaande klanten en actief nieuwe prospects benaderen.\n- Klanten adviseren over ons assortiment multiplex en technisch plaatmateriaal, ondersteund door interne productexpertise.\n- Het volledige commerciële traject beheren: prospectie, analyse van de behoefte, offerte, onderhandeling en opvolging.\n- Marktontwikkelingen, nieuwe toepassingen en commerciële opportuniteiten tijdig signaleren.\n- Activiteiten, resultaten en kansen helder rapporteren.\n- Wekelijks deelnemen aan de bijeenkomst van het Belgische salesteam bij Altripan.\n- De sterke reputatie van Altripan uitdragen, gebaseerd op vertrouwen, vakkennis en langetermijnrelaties.\n JOUW PROFIEL\n Een gedreven collega met commerciële flair en technisch inzicht \n Je neemt initiatief, werkt doelgericht en weet klanten te overtuigen met een open en professionele communicatiestijl. Je combineert zelfstandigheid met teamgerichtheid en bouwt relaties op vanuit vertrouwen en inhoudelijke meerwaarde.\n- Je beschikt over een zeer goede kennis van het Frans en een goede basiskennis van het Nederlands.\n- Je hebt bij voorkeur een eerste relevante ervaring in een technische of commerciële functie. Ervaring in hout, plaatmateriaal of de bouwsector is een pluspunt.\n- Je werkt vlot met MS Office en bent vertrouwd met gestructureerde commerciële opvolging en rapportering.\n- Je organiseert zelfstandig uw klantenbezoeken en commerciële agenda.\n- Je werkt intensief samen met de collega’s van sales en logistiek.\n- Je communiceert open, eerlijk en resultaatgericht.\n- Je hebt overtuigingskracht, verantwoordelijkheidszin en een stabiele, waardegedreven persoonlijkheid.\n- Je bent bereid je regelmatig te verplaatsen binnen Brussel, Wallonië en Luxemburg en wekelijks naar Altripan te komen.\n WAT ALTRIPAN BIEDT\n Een vaste plek in een ervaren en betrokken salesteam \n Een functie met verantwoordelijkheid \n Je krijgt de ruimte om jouw regio zelfstandig te ontwikkelen en commerciële opportuniteiten om te zetten in duurzame klantenrelaties.\n Een sterk team en een grondige ondersteuning \n Je werkt nauw samen met ervaren collega’s in sales, aankoop, logistiek en productmanagement. We zorgen voor een degelijke introductie in ons assortiment, onze markt en onze manier van werken.\n Een competitief pakket \n Je ontvangt een marktconforme en competitieve verloning in lijn met jouw ervaring en verantwoordelijkheden, aangevuld met extralegale voordelen en een bedrijfswagen.\n Een stabiele, internationale werkomgeving \n Je komt terecht bij een gevestigde multiplexspecialist met internationale sourcing, een ruime voorraad en een sterke positie in de professionele houthandel en industrie.\n Ruimte voor initiatief en ontwikkeling \n  …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-18T23:03:03.927Z",
+    "location_class": "belgium"
+   },
+   "id": "c90b236161f9"
+  },
+  {
+   "title": "Accountmanager | Jouw regio, jouw klanten, jouw succes",
+   "company": "Sander Antwerpen",
+   "location": "Gent, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Accountmanager-Jouw-regio-jouw-klanten-jouw-succes-Gent-Sander-Antwerpen--2255255-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-17",
+   "description": "Sales\n B2B\n Metaalindustrie\n Oost-Vlaanderen\n Ben jij iemand die graag onderweg is, energie krijgt van klantencontact en commerciële kansen weet om te zetten in concrete resultaten? Dan is dit misschien jouw volgende stap.\n Voor een klant actief binnen de metaalindustrie zoeken we een Accountmanager die Oost-Vlaanderen als zijn of haar commerciële speelveld ziet. Je krijgt de ruimte om de markt te verkennen, nieuwe contacten te leggen en bestaande klantenrelaties verder uit te bouwen. Geen vaste werkwijze waarin je moet werken, maar de vrijheid om je eigen aanpak te bepalen en je regio op jouw manier te ontwikkelen.\n Je komt terecht bij een ambitieuze klant waar initiatief wordt gewaardeerd en waar je de kans krijgt om echt je stempel te drukken.\n Role\n- Je neemt Oost-Vlaanderen volledig onder je hoede en bouwt er stap voor stap een sterke klantenportefeuille uit\n- Je gaat actief op zoek naar nieuwe commerciële opportuniteiten en weet potentiële klanten te overtuigen\n- Je onderhoudt het contact met bestaande klanten en zorgt ervoor dat samenwerkingen blijven groeien\n- Je brengt de behoeften van klanten in kaart en denkt mee over oplossingen die aansluiten bij hun activiteiten\n- Je volgt ontwikkelingen in de markt op en vertaalt deze naar commerciële mogelijkheden\n- Je organiseert zelfstandig je agenda en bepaalt hoe je jouw regio het beste bewerkt\n Profile\n- Je hebt een commerciële ingesteldheid en krijgt energie van klantencontact\n- Ervaring in sales of accountmanagement is mooi meegenomen, maar jouw motivatie en leergierigheid geven de doorslag\n- Je communiceert vlot en professioneel in het Nederlands\n- Je neemt initiatief, ziet opportuniteiten en durft erop af te stappen\n- Je werkt zelfstandig, plant je afspraken efficiënt en houdt overzicht over je activiteiten\n- Je bent iemand die graag relaties opbouwt en op lange termijn resultaat wil neerzetten\n Offer\n- Een aantrekkelijk brutoloon vanaf €2.250 per maand \n- Daarbovenop ontvang je vakantiegeld \n- Een extra financiële bonus dankzij de 13e maand \n- €10 maaltijdcheques per gewerkte dag, zodat je ook tijdens de lunch iets extra's hebt\n- Jaarlijks €250 ecocheques voor duurzame aankopen\n- Een stijlvolle Volkswagen Polo R-Line als bedrijfswagen\n- Met een tankkaart zijn ook je brandstofkosten gedekt\n- De taksen, verzekering en het onderhoud van je bedrijfswagen worden volledig door de werkgever betaald\n- Een hospitalisatieverzekering voor extra gemoedsrust\n- Een jaarlijkse premie van €330,84 boven op je loonpakket\n- Je krijgt alle kansen om te groeien dankzij salestrainingen, persoonlijke coaching en opleidingen \n- Veel vrijheid en autonomie om je eigen agenda te beheren en jouw regio verder uit te bouwen\n- Een gsm die je zowel professioneel als privé mag gebruiken\n- Een jaarlijkse internetvergoeding als extra tegemoetkoming\n- Maar liefst 24 vakantiedagen om voldoende tijd te nemen voor jezelf\n- Je maakt deel uit van een ambitieus bedrijf met een hecht team , waar samenwerking en initiatief centraal staan\n- Regelmatig worden er teambuildings en incentives georganiseerd om samen successen te vieren\n- Je krijgt regelmatig feedback over je prestaties en bijdrage, met daarbij ook de mogelijkheid om je verloningspakket opnieuw te bekijken \n Geïnteresseerd?\nBij Sander, behandelen we elke aanvraag strikt vertrouwelijk!\n+32 (0) 3 844 70 77",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-17T16:33:38.29Z",
+    "location_class": "belgium"
+   },
+   "id": "b246ab7ec7ca"
+  },
+  {
+   "title": "Account Manager Mobiele beveilingsoplossingen",
+   "company": "Sales Talents",
+   "location": "Temse, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Mobiele-beveilingsoplossingen-Temse-Sales-Talents--2255432-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-19",
+   "description": "Ben jij een jonge, energieke hunter die houdt van nieuwe klanten scoren, kansen spotten en deals closen? Dan is deze rol iets voor jou! Voor een internationale speler in mobiele beveiligingsoplossingen zoeken we een Accountmanager die actief op pad gaat in Vlaams‑Brabant en Brussel , bij bouwbedrijven, infrastructuurbedrijven, nutsbedrijven, industriële sites en energieparken .\n In deze rol ben jij het gezicht van het bedrijf in jouw regio. Je ontdekt nieuwe opportuniteiten, adviseert klanten over slimme tijdelijke beveiligingsoplossingen en bouwt een sterke klantenportefeuille uit. Je komt terecht in een jong, energiek salesteam waar samenwerking, autonomie en resultaatgericht werken centraal staan.\n Jouw verantwoordelijkheden\n Wat je gaat doen: \n- Zelfstandig jouw regio Vlaams‑Brabant-Brussel beheren en actief nieuwe klanten bezoeken\n- Bouwwerven, industriële sites en energieparken bezoeken, zowel op afspraak als spontaan\n- Behoeften van klanten analyseren en advies op maat geven over tijdelijke beveiligingsoplossingen\n- Offertes opstellen, opvolgen en deals closen\n- Bestaande relaties onderhouden en uitbouwen voor repeat business\n- Rapporteren in CRM en samenwerken met projectmanagement voor optimale uitvoering\n Jouw profiel\n Wie jij bent: \n- Minimaal een eerste commerciële werkervaring (B2B)\n- Een echte hunter die kansen ziet en doorzettingsvermogen heeft\n- Communicatief sterk, zelfstandig en resultaatgericht\n- Teamplayer die graag samenwerkt maar ook zijn eigen pad durft te bepalen\n- Ervaring of netwerk in bouw, verhuur, beveiliging of industrie is een plus\n- Nederlandstalig met goede kennis Frans\n- Woonachtig in de te bwerken regio\n Ons aanbod\n Wat wij bieden: \n- Bruto maandloon 3.000 € - 3.500 € (afhankelijk van ervaring)\n- Bonussysteem \n- Bedrijfswagen + tankkaart, laptop & gsm\n- Maaltijd- en ecocheques\n- Hospitalisatie- en groepsverzekering\n- 12 ADV-dagen bovenop standaardverlof\n- Flexibele werkuren en mogelijkheid tot home-office\n- Opleidingstraject in een internationale organisatie\n Praktisch: \n- Voltijds functie (39,5 u/week)\n- Flexibel uurrooster met mogelijkheid tot home‑office\n- 1 dag per week op kantoor (Regio Waasland)\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-19T15:27:20.83Z",
+    "location_class": "belgium"
+   },
+   "id": "8a7070753fee"
+  },
+  {
+   "title": "Key Account Manager New Business - Antwerpen",
+   "company": "Dixon Sales & Marketing",
+   "location": "Antwerpen, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Key-Account-Manager-New-Business-Antwerpen-Antwerpen-Dixon-Sales-Marketing--2255345-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-18",
+   "description": "Introductie\n Onze klant is een gevestigde speler in facility services en wil verder groeien in de regio Antwerpen. Antwerpen is een sterke, ondernemende regio met een brede waaier aan bedrijven: van kmo’s en grote industriële spelers tot logistieke bedrijven en publieke organisaties.\n Verkopen is er geen individuele aangelegenheid. Je kan rekenen op Marketing voor leads, Sales Support voor offertes en op de teams voor calculatie, aanbestedingen en operations bij grotere projecten. Zij openen mee de deuren. Jij zorgt dat ze open blijven.\n Jouw verantwoordelijkheden\n Als Key Account Manager New Business zorg je dat onze klant zichtbaar en aanwezig is in de regio Antwerpen. Je bent een echte hunter die graag nieuwe mensen ontmoet, kansen ruikt en deals sluit.\n- Je identificeert zakelijke kansen in de regio Antwerpen.\n- Je volgt leads en afspraken op en zet ze om in concrete opportuniteiten.\n- Je bouwt actief aan je klantenportefeuille via prospectie, LinkedIn, netwerkevents en je eigen netwerk.\n- Je gaat in gesprek met beslissingsnemers en begrijpt wat hen écht bezighoudt.\n- Je volgt je dossiers van A tot Z op: eerste contact, offerte, onderhandeling en ondertekening.\n- Voor grotere projecten en overheidsaanbestedingen werk je samen met interne experts.\n- Je beheert je pipeline in Salesforce.\n Jouw profiel\n- Je combineert commercieel inzicht met nieuwsgierigheid en ambitie.\n- Je hebt ervaring in B2B-sales, business development of de dienstensector. Of je overtuigt met je verkooptalent, maturiteit en drive om snel te groeien.\n- Je spreekt en schrijft vlot Nederlands. Een goede kennis van het Frans is een pluspunt.\n- Je werkt graag zelfstandig, maar altijd gestructureerd en resultaatgericht.\n- Je hoeft nog niet alles te kunnen. Je wil vooral uitblinken in sales en jezelf verder ontwikkelen.\n Ons aanbod\n- Veel autonomie en verantwoordelijkheid.\n- Een aantrekkelijk loonpakket met bonussysteem.\n- Een bedrijfswagen, een netto onkostenvergoeding en een groepsverzekering.\n- Professionele tools zoals Salesforce en LinkedIn Sales Navigator.\n- Actieve ondersteuning bij leadgeneratie en salespresentaties.\n- Salestraining en coaching.\n- Flexibiliteit: je werkt bij klanten, op kantoor of van thuis.\n- Een toegankelijk, betrokken salesteam dat achter je staat.\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-18T16:14:56.683Z",
+    "location_class": "belgium"
+   },
+   "id": "efd1654afa10"
+  },
+  {
+   "title": "Key Account Manager New Business - Brussel",
+   "company": "Dixon Sales & Marketing",
+   "location": "Brussel, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Key-Account-Manager-New-Business-Brussel-Brussel-Dixon-Sales-Marketing--2255343-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-18",
+   "description": "Introductie\n Onze klant is een gevestigde speler in facility services en breidt uit in de regio Brussel. Brussel is een dynamische, diverse markt vol zakelijke mogelijkheden: van B2B-bedrijven en complexe projecten tot overheidsopdrachten.\n Verkopen is er geen individuele aangelegenheid. Marketing helpt je met leadgeneratie, Sales Support met offertes, en voor grotere projecten werk je samen met de teams voor calculatie, aanbestedingen en operations. Zij openen mee de deuren. Jij zorgt dat ze open blijven.\n Jouw verantwoordelijkheden\n Als Key Account Manager New Business ga je actief op zoek naar nieuwe klanten in de regio Brussel. Je bent een echte hunter die energie haalt uit nieuwe contacten en deals sluiten.\n- Je identificeert zakelijke kansen in de regio Brussel.\n- Je volgt leads en afspraken op en zet ze om in concrete opportuniteiten.\n- Je prospecteert actief via acquisitie, LinkedIn, events en je eigen netwerk.\n- Je bereikt beslissingsnemers en brengt hun noden en uitdagingen in kaart.\n- Je beheert je dossiers van A tot Z: van eerste contact tot offerte, onderhandeling en ondertekening.\n- Bij grotere projecten en overheidsaanbestedingen werk je nauw samen met interne experts.\n- Je houdt je pipeline actief bij in Salesforce.\n Jouw profiel\n- Je hebt zakelijk inzicht, bent nieuwsgierig en wil nieuwe klanten binnenhalen.\n- Je hebt ervaring in B2B-sales, business development of de dienstensector. Of je overtuigt met je verkooptalent, maturiteit en groeihonger.\n- Je communiceert vlot en professioneel in het Frans en het Nederlands, ook tijdens klantmeetings en onderhandelingen.\n- Je houdt van autonomie, maar werkt gestructureerd en nauwgezet.\n- Je hoeft nog niet alles te kunnen. Je wil vooral uitblinken in sales en blijven groeien.\n Ons aanbod\n- Veel autonomie en verantwoordelijkheid.\n- Een aantrekkelijk loonpakket met bonussysteem.\n- Een bedrijfswagen, een netto onkostenvergoeding en een groepsverzekering.\n- Professionele tools zoals Salesforce en LinkedIn Sales Navigator.\n- Actieve ondersteuning bij leadgeneratie en salespresentaties.\n- Salestraining en coaching.\n- Flexibiliteit: je werkt bij klanten, op kantoor of van thuis.\n- Een toegankelijk, betrokken salesteam waarop je kan rekenen.\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-18T16:08:50.763Z",
+    "location_class": "belgium"
+   },
+   "id": "204cf04e7b01"
+  },
+  {
+   "title": "Account Manager Medische Software I Kinesisten",
+   "company": "Sales Talents",
+   "location": "Hansbeke, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Medische-Software-I-Kinesisten-Hansbeke-Sales-Talents--2255421-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-19",
+   "description": "Voor een internationale speler in medische softwareoplossingen zoeken we een ondernemende Account Managers die de softwareoplossingen voor kinesitherapiepraktijken in Vlaanderen verder op de kaart zet. Ben jij een commerciële hunter die graag zelfstandig de baan op gaat en energie haalt uit nieuwe klanten binnenhalen? Wil je bovendien meewerken aan de verdere digitalisering van de gezondheidszorg? Dan is deze commerciële uitdaging misschien iets voor jou!\n Jouw verantwoordelijkheden\n- Als Account Manager ben je verantwoordelijk voor de commerciële ontwikkeling van jouw markt binnen Vlaanderen .\n- Je combineert actieve prospectie met het uitbouwen van bestaande klantenrelaties . Een deel van de afspraken komt spontaan binnen via geïnteresseerde praktijken, maar je neemt ook zelf het initiatief om nieuwe opportuniteiten te creëren.\n- Zelfstandig afspraken genereren via telefonische prospectie, cold calling en het opvolgen van binnenkomende leads.\n- Zelfstandige kinesitherapeuten en praktijken bezoeken en demonstraties geven van de medische softwareoplossingen.\n- De behoeften analyseren en hen adviseren over de meest geschikte digitale oplossingen.\n- Onderhandelen en nieuwe licentiecontracten afsluiten. \n- Bestaande klantenrelaties onderhouden en verder uitbouwen. \n- Commerciële opportuniteiten detecteren via upselling van bijkomende modules, opleidingen en hardware. \n- Je bent het commercieel aanspreekpunt voor jouw klanten en werkt nauw samen met de helpdesk, productmanagement en inside sales.\n- Resultaten opvolgen en rapporteren op basis van onder andere order intake, klantenbezoeken en prospectieactiviteiten.\n Jouw profiel\n- Minimaal 5 jaar commerciële ervaring , bij voorkeur in B2B-field sales. \n- Een stevige huntermentaliteit : actief prospecteren, telefonische contacten leggen en nieuwe klanten overtuigen.\n- Ervaring binnen de medische sector, healthcare, farmaceutische industrie of medische apparatuur is een sterke troef. Ook ervaring in B2B-software in een andere technische/commerciële omgeving komen is interessant. \n- Vlot in het voeren van commerciële gesprekken en het geven van productdemo’s.\n- Interesse in digitale oplossingen en voldoende affiniteit met software om nieuwe toepassingen snel onder de knie te krijgen.\n- Zelfstandig, ondernemend en resultaatgericht , met voldoende maturiteit om een eigen klantenportefeuille te beheren.\n- Een goede kennis van het Nederlands is noodzakelijk. Frans en Engels is een plus.\n Ons aanbod\n- Vast brutoloon tot € 4500 per maand, afhankelijk van jouw ervaring en expertise.\n- Jaarlijkse bonus tot € 20.000 , uitbetaald per kwartaal en gekoppeld aan persoonlijke commerciële doelstellingen.\n- Bedrijfswagen. \n- Netto onkostenvergoeding. \n- Maaltijdcheques van € 8 per gewerkte dag.\n- Laptop en gsm. \n- Groepsverzekering. \n- Hospitalisatieverzekering \n- Ambulante verzekering met terugbetaling van medische kosten tot € 2.500 per jaar.\n- 12 ADV dagen. \n- Een intensieve productopleiding en begeleiding door ervaren collega's.\n- Je krijgt veel autonomie en de ruimte om je eigen commerciële aanpak te bepalen. \n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-19T14:19:04.967Z",
+    "location_class": "belgium"
+   },
+   "id": "72be6c2718b0"
+  },
+  {
+   "title": "Account Manager Medische Software I Artsen",
+   "company": "Sales Talents",
+   "location": "Hansbeke, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Medische-Software-I-Artsen-Hansbeke-Sales-Talents--2254422-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-18",
+   "description": "Voor een internationale speler in medische softwareoplossingen zoeken we een ondernemende Account Manager die de softwareoplossingen voor artsen in Vlaanderen verder op de kaart zet. Ben jij een commerciële hunter die graag zelfstandig de baan op gaat en energie haalt uit nieuwe klanten binnenhalen? Wil je bovendien meewerken aan de verdere digitalisering van de gezondheidszorg? Dan is deze commerciële uitdaging misschien iets voor jou!\n Jouw verantwoordelijkheden\n- Als Account Manager ben je verantwoordelijk voor de commerciële ontwikkeling van jouw markt binnen Vlaanderen .\n- Je combineert actieve prospectie met het uitbouwen van bestaande klantenrelaties . Een deel van de afspraken komt spontaan binnen via geïnteresseerde praktijken, maar je neemt ook zelf het initiatief om nieuwe opportuniteiten te creëren.\n- Zelfstandig afspraken genereren via telefonische prospectie, cold calling en het opvolgen van binnenkomende leads.\n- Zelfstandige dokters en groepspraktijken bezoeken en demonstraties geven van de medische softwareoplossingen.\n- De behoeften analyseren en hen adviseren over de meest geschikte digitale oplossingen.\n- Onderhandelen en nieuwe licentiecontracten afsluiten. \n- Bestaande klantenrelaties onderhouden en verder uitbouwen. \n- Commerciële opportuniteiten detecteren via upselling van bijkomende modules, opleidingen en hardware. \n- Je bent het commercieel aanspreekpunt voor jouw klanten en werkt nauw samen met de helpdesk, productmanagement en inside sales.\n- Resultaten opvolgen en rapporteren op basis van onder andere order intake, klantenbezoeken en prospectieactiviteiten.\n Jouw profiel\n- Minimaal 5 jaar commerciële ervaring , bij voorkeur in B2B-field sales. \n- Een stevige huntermentaliteit : actief prospecteren, telefonische contacten leggen en nieuwe klanten overtuigen.\n- Ervaring binnen de medische sector, healthcare, farmaceutische industrie of medische apparatuur is een sterke troef. Ook ervaring in B2B-software in een andere technische/commerciële omgeving komen is interessant. \n- Vlot in het voeren van commerciële gesprekken en het geven van productdemo’s.\n- Interesse in digitale oplossingen en voldoende affiniteit met software om nieuwe toepassingen snel onder de knie te krijgen.\n- Zelfstandig, ondernemend en resultaatgericht , met voldoende maturiteit om een eigen klantenportefeuille te beheren.\n- Een goede kennis van het Nederlands is noodzakelijk. Frans en Engels is een plus.\n Ons aanbod\n- Vast brutoloon tot € 4500 per maand, afhankelijk van jouw ervaring en expertise.\n- Jaarlijkse bonus tot € 20.000 , uitbetaald per kwartaal en gekoppeld aan persoonlijke commerciële doelstellingen.\n- Bedrijfswagen. \n- Netto onkostenvergoeding. \n- Maaltijdcheques van € 8 per gewerkte dag.\n- Laptop en gsm. \n- Groepsverzekering. \n- Hospitalisatieverzekering \n- Ambulante verzekering met terugbetaling van medische kosten tot € 2.500 per jaar.\n- 12 ADV dagen. \n- Een intensieve productopleiding en begeleiding door ervaren collega's.\n- Je krijgt veel autonomie en de ruimte om je eigen commerciële aanpak te bepalen.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-04T13:36:22.26Z",
+    "location_class": "belgium"
+   },
+   "id": "6d497ccad96c"
+  },
+  {
+   "title": "Key Account Manager Retail",
+   "company": "Sales Talents",
+   "location": "Roosdaal, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Key-Account-Manager-Retail-Roosdaal-Sales-Talents--2255437-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-19",
+   "description": "Ben jij een ervaren commerciële professional met een sterke achtergrond binnen retail en private label? Heb je bewezen ervaring in onderhandelingen met grote supermarktketens en haal je energie uit het uitbouwen van duurzame klantenrelaties op lange termijn?\n Voor een internationaal productiebedrijf actief binnen de voedingsindustrie zoeken we een ervaren Key Account Manager die verantwoordelijk wordt voor het beheer en de verdere ontwikkeling van een bestaande klantenportefeuille binnen de Belgische retailmarkt. De organisatie combineert de slagkracht van een internationale groep met de korte communicatielijnen en familiale sfeer van een Belgische kmo. Duurzaamheid, kwaliteit en langetermijnsamenwerkingen staan hierbij centraal.\n Jouw verantwoordelijkheden\n Als Key Account Manager ben je verantwoordelijk voor het onderhouden en verder ontwikkelen van commerciële relaties met grote retailklanten in België. Je komt terecht in een markt waar duurzame partnerships belangrijker zijn dan snelle verkoopresultaten.\n Bij je opstart ligt de focus volledig op het overnemen en verder uitbouwen van de bestaande klantenportefeuille. Na verloop van tijd krijg je ook ruimte om nieuwe opportuniteiten te detecteren en commerciële groei te realiseren.\n Jouw verantwoordelijkheden:\n- Beheren en verder uitbouwen van strategische key accounts binnen de retailsector.\n- Onderhouden van contacten met aankopers van grote supermarktketens.\n- Voorbereiden en voeren van prijs- en contractonderhandelingen.\n- Opstellen, opvolgen en onderhandelen van offertes en commerciële afspraken.\n- Analyseren van omzet, marges en commerciële opportuniteiten.\n- Opbouwen van langdurige klantrelaties gebaseerd op vertrouwen en samenwerking.\n- Detecteren van nieuwe markt- en groeikansen binnen België.\n- Actief deelnemen aan beurzen, klantenevents en internationale meetings.\n- Nauwe samenwerking met de interne sales support en verschillende afdelingen binnen de organisatie.\n- Rapporteren aan de Business Manager.\n Het betreft voornamelijk een farmer-rol:\n- 80 à 90% accountmanagement en relatiebeheer.\n- 10 à 20% business development.\n- Tijdens de inwerkperiode ligt de focus vrijwel volledig op het beheren van de bestaande klantenportefeuille.\n Jouw profiel\n Wij zoeken een commerciële professional die sterk is in onderhandelen, relaties opbouwen en strategisch accountmanagement.\n Jouw profiel:\n- Bachelor denkniveau.\n- Enkele jaren ervaring als Key Account Manager, National Account Manager of in een gelijkaardige commerciële functie binnen retail.\n- Ervaring met private label trajecten is een sterke troef.\n- Ervaring in onderhandelingen met grote retailorganisaties of supermarktketens.\n- Ervaring binnen aankoop in de retailsector kan eveneens interessant zijn.\n- Je beschikt over sterke commerciële en analytische vaardigheden.\n- Je bent een overtuigende communicator met voldoende maturiteit en daadkracht.\n- Je bouwt gemakkelijk duurzame relaties op en weet verschillende stakeholders mee te nemen in jouw verhaal.\n- Je werkt autonoom en neemt eigenaarschap over jouw klantenportefeuille.\n- Je spreekt vloeiend Nederlands.\n- Je beschikt over een zeer goede kennis van het Frans en Engels.\n- Je woont bij voorkeur centraal in België.\n Top 3 succesfactoren\n- Sterke onderhandelingsvaardigheden.\n- Ervaring met private label en/of retail.\n- Communicatief sterk, zelfstandig en voldoende stevig in commerciële gesprekken.\n Ons aanbod\n Je krijgt de kans om een goed uitgebouwde klantenportefeuille over te  …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-19T16:17:26.953Z",
+    "location_class": "belgium"
+   },
+   "id": "bcc500150283"
+  }
+ ]
+}
