@@ -1,0 +1,331 @@
+{
+ "stats": {
+  "date": "2026-11-21",
+  "run_id": 9,
+  "collected": 10680,
+  "unique": 8180,
+  "already_known": 58,
+  "new_after_filter": 4,
+  "pending_for_scoring": 4,
+  "drop_reasons": {
+   "title not a target role": 3839,
+   "title excluded": 3236,
+   "location outside target": 1028,
+   "location not confirmed as Belgium/remote-Europe": 11,
+   "requires 10+ years": 3,
+   "requires 8+ years": 1
+  },
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dell.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.adzuna.com/v1/api/jobs/be/search/1?app_id=ae6063af&app_key=20e672c2caf7cc68ae50a8404b7de3db&what=enterprise+account+executive&results_per_page=50&max_days_old=45&content-type=application%2Fjson"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: https://jobs.sap.com/search/?locationsearch=Belgium shows a bot-protection challenge; not bypassed"
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Partner Manager - Public Sector Partnerships",
+   "company": "ElevenLabs",
+   "location": "Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-partner-manager-public-sector-partnerships-252530",
+   "source": "arbeitnow",
+   "remote": "remote",
+   "posted": "2026-11-20",
+   "description": "About ElevenLabs\n ElevenLabs is an AI research and product company transforming how we interact with technology.\n We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always.\nWe have expanded from voice into three main platforms:\n- ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale.\n- ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages.\n- ElevenAPI gives developers access to our leading AI audio foundational models.\n Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you.\n How we work\n- High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy.\n- Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you.\n- AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations.\n- Excellence everywhere: Everything we do should match the quality of our AI models.\n- Global team: We prioritize your talent, not your location.\n What we offer\n- Innovative culture: You’ll be part of a generational opportunity to define the trajectory of AI, surrounded by a team pushing the boundaries of what’s possible.\n- Growth paths: Joining ElevenLabs means joining a dynamic team with countless opportunities to drive impact - beyond your immediate role and responsibilities.\n- Learning & development : ElevenLabs proactively supports professional development through an annual discretionary stipend.\n- Social travel : We also provide an annual discretionary stipend to meet up with colleagues each year, however you choose.\n- Annual team offsite: Each year, we bring your entire team together in a new location - past offsites have included Croatia, Italy and Cancún\n- Co-working : If you’re not located near one of our main hubs, we offer a monthly co-working stipend.\n About the role \n We're looking for an experienced partnerships leader to build and scale ElevenLabs' Public Sector Partner Programme in North America — bringing together resellers, VARs, and systems integrators who help deploy our technology across federal agencies, state and local governments, and education institutions.\n You'll own the public sector partner strategy end-to-end — from building relationships with leading SIs and VARs with established public sector practices, to onboarding, enabling, and activating them to sell and deliver ElevenLabs products into government and education accounts.\n This is a 0→1 build: you'll design partner incentive and enablement models tailored to the procurement and compliance realities of the public sector, generate qualified pipeline through partner-led opportunities, and scale the programme against North America grow …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "0f14acd9ab8a"
+  },
+  {
+   "title": "Enterprise Account Executive - EMEA",
+   "company": "Abacum",
+   "location": "Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/abacum/remote-enterprise-account-executive-emea-132408",
+   "source": "arbeitnow",
+   "remote": "remote",
+   "posted": "2026-11-20",
+   "description": "About Abacum \n Abacum is the leading Business Planning solution for finance teams to drive performance . By automating reporting, enabling collaboration, and simplifying planning and forecasting, we help finance teams shift from number crunching to driving strategic decisions.\n Founded in 2020 by two former CFOs, we’ve grown into a global team of 100+ people across 30+ nationalities . Headquartered in New York , we have offices in Toronto and Barcelona. We’re trusted by industry leaders such as Dish Networks, Strava, BetterUp, Kajabi, JG Wentworth, Abridge, Cortex , and hundreds more.\n We have raised over $100m, closing in June 2025 our $60M Series B, led by Scale Venture Partners , with the strong participation of Cathay Innovation, Y Combinator , Atomico, Creandum, and angel operators from Adyen, Zapier, and Twitch.\n Our mission is ambitious and we can’t do it alone - join Abacum as we build the future of Business Planning! \n We are looking for... \n An enterprise seller who already knows the Office of the CFO. You've carried a number selling planning, EPM, FP&A or finance software. You know how a CFO buys, how a steering committee stalls, and how to get a multi-stakeholder deal signed.\n At Abacum you'll own a named territory of enterprise and upper mid-market accounts across EMEA. Many of them run legacy planning tools or spreadsheets that can't keep up with the business. Your job is to show them a better foundation, and win.\n As an Enterprise Account Executive, you will... \n - Own the full sales cycle for a named book of enterprise accounts, from first meeting to signed contract\n - Build and run your own pipeline through targeted outbound, events, and partner co-selling with ERP vendors and implementation partners\n - Sell to CFOs, VPs of Finance and Heads of FP&A, and bring IT, procurement, security and legal along the way\n - Run complex evaluations: discovery, business cases, proofs of concept, and competitive displacements\n - Forecast with discipline and keep a clean pipeline in CRM\n - Work with Solutions Engineering, Product and Leadership to shape deals, and feed what you hear in the market back into the roadmap\n What we need... \n - 6+ years of quota-carrying B2B SaaS sales, with at least 3 years closing enterprise deals\n - Experience selling EPM, FP&A, planning, or other Office-of-the-CFO software (finance, ERP, spend, or data platforms)\n - A track record of closing six-figure ARR deals with 3–6 month cycles and hitting or beating quota\n - Comfort leading multi-stakeholder deals with finance, IT, procurement and security at the table\n - Experience displacing an incumbent, whether a legacy system or a spreadsheet-based process\n - A consultative, value-based approach: you build a business case in a CFO's language\n - The drive to build your own pipeline, not wait for inbound\n - Clear, sharp written and verbal communication, including running demos with senior buyers\n - Based in EMEA, with the ability to travel to customers and events\n Bonus points if you have... \n - Sold with or through ERP ecosystems (NetSuite, Sage Intacct, Microsoft Dynamics) or implementation partners\n - Worked in finance, or you're comfortable talking models, drivers and variances with an FP&A team\n - Used a structured sales method (MEDDPICC, Command of the Message, or similar)\n - Been an early seller at a scaling company and helped build the enterprise playbook\n Why sell Abacum \n You know the category. Here's why this is the product you want in your bag.\n 1.  …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "7fa9b2d09b31"
+  },
+  {
+   "title": "Enterprise Account Executive III - NA",
+   "company": "Camunda",
+   "location": "Remote",
+   "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-enterprise-account-executive-iii-na-104865",
+   "source": "arbeitnow",
+   "remote": "remote",
+   "posted": "2026-11-20",
+   "description": "Camunda is the enterprise platform for agentic orchestration , enabling organizations to coordinate AI agents, people, and systems across complex, end-to-end business processes. With built-in governance, auditability, and human oversight, Camunda gives enterprises the control they need to move AI from pilots to production — safely and at scale. Trusted by over 700 organizations worldwide , including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences.\n Fully remote and global, we are in the middle of something bigger: transforming into an AI-first organisation, built on our own platform . We use Agentic AI to automate, orchestrate intelligent processes, and elevate human contribution across every team.\nNamed GP Bullhound’s Top 100 Next Unicorn list, 2025 Great Place to Work certified. Visionary in 2025 Gartner® Magic Quadrant™ for Business Orchestration and Automation Technologies. ranked 3rd in Flexa's 2026 Most Flexible Companies , We’re growing fast and looking for top talent to join our team. If you want meaningful work, visible impact and put something genuinely rare on your CV, keep reading. \n About the Role: \n Hi there! We're hiring an Enterprise Account Executive III to join our Sales team.\n Our sales team is tenured, technically curious, and genuinely invested in doing right by the customer, not just closing the deal in front of them. We partner closely across the business, and we operate with a lot of trust: you're given real ownership over your territory, and you're expected to bring your own judgment to how you build it.\n This role carries real weight. You'll be responsible for a book of enterprise accounts where the deals are complex, the buying committees are large, and the technical bar is high. There's meaningful room here to shape how your territory gets built, not just execute against someone else's plan.\n As an Enterprise Account Executive III, you'll own the full sales cycle for enterprise accounts, from first conversation through negotiation and close, working alongside sales engineering, customer success, and leadership to get complex deals across the line. This role matters because enterprise wins are how Camunda grows its footprint in large, strategic accounts, and how we prove the platform works at scale.\n What You Will Do \n- Own and execute the full sales cycle for enterprise accounts, from prospecting through negotiation and close.\n- Build and drive strategic account plans that identify whitespace, map stakeholders, and set a realistic path to close.\n- Navigate complex, multi-stakeholder buying committees, including technical, business, and executive buyers.\n- Partner with sales engineering and customer success to build technical credibility and ensure smooth handoff after close.\n- Represent Camunda's value to senior leaders and technical buyers, tailoring the pitch to what each audience actually cares about.\n- Forecast accurately and manage pipeline health with discipline, not optimism.\n What You Will Bring to the Role \n- Significant experience closing enterprise software deals end-to-end, ideally six figures or more, with a track record across multiple full sales cycles. You know what it takes to move a deal from first meeting to signature without losing momentum.\n- Comfort navigating complex, multi-stakeholder enterprise environments. You've worked deals with C-suite, IT, legal, and procurement in the room at the sam …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "90f8311504f5"
+  },
+  {
+   "title": "Account Manager Regio Brussel",
+   "company": "Wesearch",
+   "location": "Brussel, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Regio-Brussel-Brussel-Wesearch--2255487-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-20",
+   "description": "Introductie\n Wij zijn op zoek naar commercieel talent met een oog voor opportuniteiten, een klantgerichte houding en passie voor werken op de baan. Herken je jezelf in deze beschrijving? Dan is deze functie echt iets voor jou!\n Als accountmanager bouw je samen met je collega’s aan een sterk netwerk van bemande en onbemande afhaal- en verzendpunten. Je onderhoudt bestaande samenwerkingen en gaat actief op zoek naar nieuwe opportuniteiten.\n Jouw takenpakket: \n- Actief op zoek gaan naar nieuwe samenwerkingsmogelijkheden in regio Brussel.\n- Nieuwe locaties begeleiden van eerste contact tot succesvolle opstart en hierbij alle nodige ondersteuning bieden.\n- Het bestaande klantenportefeuille beheren als eerste aanspreekpunt voor partners.\n- Operationele uitdagingen van partners analyseren en op zoek gaan naar efficiëntere en duurzame werkwijzen.\n- Prestaties van jouw regio opvolgen aan de hand van KPI's en operationele gegevens en vertalen naar heldere rapportages.\n WeSearch\n Voor deze functie zijn wij niet op zoek naar een specifiek diploma of opleiding, maar wel een commerciële flair, goede communicatievaardigheden een analytisch inzicht. Wat breng je mee?\n- Ervaring in een gelijkaardige functie (1-3 jaar).\n- Vlotte taalvaardigheid in het Frans en Nederlands.\n- Een rijbewijs B, wij zorgen voor de wagen.\n WeOffer\n Je komt terecht bij een logistiek postbedrijf dat zich richt op pakketlevering en e-commerceoplossingen, met een sterke aanwezigheid in de Benelux. Zij bieden jou:\n- Meteen een vast contract\n- Een startloon tot 3200 euro bruto naargelang je ervaring\n- Doorgroeimogelijkheden\n- Mogelijkheid tot zelfontwikkelig via interne of externe opleidingen\n- Maaltijdcheques van €8 per gewerkte dag\n- Ecocheques\n- Wagen met laadpas (ook voor privégebruik)\n- Mogelijkheid tot fietsleasing na 2 jaar dienst\n- Hospitalisatieverzekering\n- Groepsverzekering\n- 29 dagen vakantie\n- Toegang tot het Edenred voordeelplatform\n- GSM met abonnement (voor professioneel gebruik)\n- Laptop\n YouWant?\n Heb je interesse? Solliciteer dan zeker op de onderstaande link:\n Bij vragen kan je ons ook altijd contacteren op 015/551.526.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-20T12:42:56.257Z",
+    "location_class": "belgium"
+   },
+   "id": "ba7a87053f57"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "id": "0f14acd9ab8a",
+  "keep": false,
+  "drop_reason": "Remote, region vague; public-sector partnerships, Belgium eligibility unconfirmed",
+  "bucket": "",
+  "role_type": "",
+  "scores": {},
+  "why": "",
+  "risk": ""
+ },
+ {
+  "id": "7fa9b2d09b31",
+  "keep": false,
+  "drop_reason": "Requires 6+ years quota-carrying EPM/FP&A experience; remote EMEA, Belgium unconfirmed",
+  "bucket": "",
+  "role_type": "",
+  "scores": {},
+  "why": "",
+  "risk": ""
+ },
+ {
+  "id": "90f8311504f5",
+  "keep": false,
+  "drop_reason": "NA territory, not open to Belgium-based",
+  "bucket": "",
+  "role_type": "",
+  "scores": {},
+  "why": "",
+  "risk": ""
+ },
+ {
+  "id": "ba7a87053f57",
+  "keep": false,
+  "drop_reason": "Logistics pickup-point account manager, ~3200/month start, below 85K OTE, Brussels",
+  "bucket": "",
+  "role_type": "",
+  "scores": {},
+  "why": "",
+  "risk": ""
+ }
+]
