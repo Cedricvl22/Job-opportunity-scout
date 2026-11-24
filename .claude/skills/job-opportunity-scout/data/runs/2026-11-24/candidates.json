@@ -1,0 +1,294 @@
+{
+ "stats": {
+  "date": "2026-11-24",
+  "run_id": 10,
+  "collected": 10681,
+  "unique": 8197,
+  "already_known": 52,
+  "new_after_filter": 2,
+  "pending_for_scoring": 2,
+  "drop_reasons": {
+   "title not a target role": 3816,
+   "title excluded": 3267,
+   "location outside target": 1050,
+   "location not confirmed as Belgium/remote-Europe": 8,
+   "requires 8+ years": 1,
+   "requires 10+ years": 1
+  },
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.adzuna.com/v1/api/jobs/be/search/1?app_id=ae6063af&app_key=20e672c2caf7cc68ae50a8404b7de3db&what=enterprise+account+executive&results_per_page=50&max_days_old=45&content-type=application%2Fjson"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: https://jobs.sap.com/search/?locationsearch=Belgium shows a bot-protection challenge; not bypassed"
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Major Account Executive | Remote | Netherlands",
+   "company": "grafanalabs",
+   "location": "",
+   "url": "https://www.arbeitnow.nl/jobs/companies/grafanalabs/major-account-executive-remote-netherlands-435173",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-21",
+   "description": "Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at grafana.com and follow us on LinkedIn and X . \n We’re scaling fast and staying true to what makes us different: an open-source legacy, a global collaborative culture, and a passion for meaningful work. Our team thrives in an innovation-driven environment where transparency, autonomy, and trust fuel everything we do.\n You may not meet every requirement, and that’s okay. If this role excites you, we’d love you to raise your hand for what could be a truly career-defining opportunity.\n The Opportunity \n Grafana Labs is looking for a  Major Account Executive based in The Netherlands who will be responsible for managing some of our largest enterprise accounts in the Benelux region . You will identify, nurture and close opportunities within your assigned install base, manage forecasts and track customer data. We're strong proponents of a consultative sales approach - learn about the customer's needs first before talking products. Your expertise will be critical in helping articulate the value of our products, work with the customer during the trial phase and hand off a strong relationship to our Growth team. Ideally, you come from a technical background and have sold technical products before.\n What You’ll Be Doing \n- \n Identify new opportunities to expand Grafana usage within a set of current customers\n- \n Meet and exceed individual quarterly and annual sales goals\n- \n Manage all aspects of the sales process (prospecting, sales meetings, product demos, proofs of concept, proposals, negotiations and account management)\n- \n Cultivate sales through outbound prospecting and inbound leads\n- \n Be able to understand and convey the value of both Grafana Cloud and Grafana Enterprise\n- \n Become an expert in managing your sales pipeline in Salesforce\n- \n Manage quote creation, order processing, and day-to-day customer requests\n What Makes You a Great Fit: \n- 6+ Years of experience in infrastructure technology sales\n- Demonstrated history of consistent goal achievement in a highly competitive environment (top 10% performer)\n- Energetic, upbeat, entrepreneurial, tenacious team player\n- Adaptable and with demonstrable experience in high velocity technology companies\n- You will need to be an excellent communicator in all channels (in person, online, in writing) and able to form strong working relationships both in person and virtually\n- Fluent in English & Dutch.\n   Bonus Points For:  \n- Familiarity with open source technology is a significant advantage\n- Experience using Salesforce\n- Experience using Command of the Message and MEDD(P)ICC is ideal\n Compensation & Reward  \n In the Netherlands, the  …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "belgium"
+   },
+   "id": "b5e4ae72f853"
+  },
+  {
+   "title": "Founding Account Executive, Benelux — Advertising (Brands, Agencies, Platforms)",
+   "company": "Higgsfield",
+   "location": "Remote",
+   "url": "https://www.arbeitnow.nl/jobs/companies/higgsfield/founding-account-executive-benelux-advertising-brands-agencies-platforms-amsterdam-143578",
+   "source": "arbeitnow",
+   "remote": "remote",
+   "posted": "2026-11-24",
+   "description": "Why work at Higgsfield AI? \n We're the fastest-scaling generative AI company in history, hitting $1B in annual revenue run rate, 30M+ users worldwide, and powering 390 of Fortune 500 brands. We're building at the absolute frontier of AI-powered video creation and next-generation creative tools. Joining Higgsfield means becoming part of a high-impact team shaping the future of AI-native experiences, at a company that isn't just moving fast, but rewriting what fast looks like.\n The role \n Higgsfield is opening enterprise sales in Europe. You will own enterprise revenue in France and the Benelux (Belgium, the Netherlands and Luxembourg), across two verticals. The first is advertising: brands, agencies and ad platforms. The second is video production: production companies, studios and post-production houses. You also pick up gaming accounts in the region. This is a proactive hunting role. You find the accounts, open the conversations, run the deals and close them yourself.\n What you will do \n- Win new enterprise customers. Source, run and close multimillion deals with large advertisers, digital-first brands and agency groups.\n- Own the advertising vertical. \n- Brands: direct contracts with marketing and performance teams.\n- Agencies: enterprise packages for creative, production and media agencies.\n- Platforms: partnerships and integrations with ad and marketing platforms.\n- Own the video production vertical. Source and close enterprise deals with production companies, film and TV studios and post-production houses. You also cover gaming publishers and developers in the region.\n- Run complex deals. Work with marketing, performance, creative, procurement, legal and security teams on the customer side. Sales cycles run 6–12 months.\n- Turn pilots into annual contracts. Agree a paid pilot with clear success criteria and convert it into a yearly commitment.\n- Share customer feedback. Tell product and leadership what customers ask for, what blocks deals and what competitors offer.\n Requirements \n- Enterprise AE experience. 4+ years as a B2B Enterprise Account Executive in a closing role, managing the full sales cycle. You have carried a multimillion annual new-business quota and met or exceeded it in most years.\n- Deals of $1M+ ARR. You have personally closed deals of $1M+ ARR in the last three years and can describe them in detail: who signed, how long the deal took, and what procurement and legal required.\n- Complex sales. Experience with 6–12 month sales cycles and several decision-makers, including C-level and VP-level buyers. You have negotiated enterprise contracts yourself and taken them through procurement, legal and security reviews.\n- Pipeline and forecasting. You build most of your pipeline through your own outbound, forecast accurately and keep the CRM up to date.\n- Agency or brand-side experience. You have worked on the agency side or the brand side. You understand the full marketing budget stack: how spend is split across media, creative, production and technology, who controls each budget line, and how brands, agencies, ad platforms and measurement providers work together.\n- Languages. Fluent French and English, written and spoken, at the level needed to negotiate and close enterprise contracts. Dutch is a major advantage.\n- France and Benelux. Based in Paris, Amsterdam or Brussels, with the right to work in the EU and existing relationships with decision-makers at advertisers and agency groups in France, Belgium, the Netherlands an …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "belgium"
+   },
+   "id": "6b1e074f1847"
+  }
+ ]
+}
