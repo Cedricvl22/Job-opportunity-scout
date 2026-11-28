@@ -1,0 +1,463 @@
+{
+ "stats": {
+  "date": "2026-11-28",
+  "run_id": 11,
+  "collected": 10641,
+  "unique": 8199,
+  "already_known": 50,
+  "new_after_filter": 11,
+  "pending_for_scoring": 11,
+  "drop_reasons": {
+   "title not a target role": 3829,
+   "title excluded": 3241,
+   "location outside target": 1058,
+   "location not confirmed as Belgium/remote-Europe": 6,
+   "requires 8+ years": 3,
+   "requires 10+ years": 1
+  },
+  "sources_ok": 62,
+  "sources_failed": [
+   {
+    "source": "remotive:remotive",
+    "company": "remotive",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "robots.txt disallows /api/"
+   },
+   {
+    "source": "ictjob:ictjob",
+    "company": "ictjob",
+    "status": "disabled",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+   },
+   {
+    "source": "workday:salesforce",
+    "company": "Salesforce",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dell",
+    "company": "Dell Technologies",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs"
+   },
+   {
+    "source": "workday:broadcom",
+    "company": "Broadcom",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:hp",
+    "company": "HP Inc",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:cisco",
+    "company": "Cisco",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:kyndryl",
+    "company": "Kyndryl",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:adobe",
+    "company": "Adobe",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:intel",
+    "company": "Intel",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dxctechnology",
+    "company": "DXC Technology",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:motorolasolutions",
+    "company": "Motorola Solutions",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:jj",
+    "company": "Johnson & Johnson",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:mastercard",
+    "company": "Mastercard",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:equinix",
+    "company": "Equinix",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:3m",
+    "company": "3M",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:dow",
+    "company": "Dow",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:workday",
+    "company": "Workday",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "workday:accenture",
+    "company": "Accenture",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "smartrecruiters:ServiceNow",
+    "company": "ServiceNow",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:Visa",
+    "company": "Visa",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "smartrecruiters:BoschGroup",
+    "company": "Bosch",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+   },
+   {
+    "source": "workday:nvidia",
+    "company": "NVIDIA",
+    "status": "blocked-bot-protection",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+   },
+   {
+    "source": "jooble:jooble",
+    "company": "jooble",
+    "status": "skipped-no-key",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "MissingKey: JOOBLE_API_KEY not set"
+   },
+   {
+    "source": "adzuna:adzuna",
+    "company": "adzuna",
+    "status": "blocked-robots",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "RobotsDisallowed: robots.txt disallows https://api.adzuna.com/v1/api/jobs/be/search/1?app_id=ae6063af&app_key=20e672c2caf7cc68ae50a8404b7de3db&what=enterprise+account+executive&results_per_page=50&max_days_old=45&content-type=application%2Fjson"
+   },
+   {
+    "source": "browser:sap",
+    "company": "SAP",
+    "status": "failed",
+    "fetched": 0,
+    "kept": 0,
+    "seconds": 0.0,
+    "error": "SourceError: page load failed for https://jobs.sap.com/search/?locationsearch=Belgium: Page.wait_for_selector: Timeout 20000ms exceeded."
+   }
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Enterprise Account Executive - DACH",
+   "company": "chainguard",
+   "location": "",
+   "url": "https://www.arbeitnow.com/jobs/companies/chainguard/enterprise-account-executive-dach-171340",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-27",
+   "description": "Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk. \nOur customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. \nChainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.\n The role, in a nutshell: \n We’re looking for highly motivated sales executives who have strong market knowledge and enjoy building relationships with key decision makers to evangelize building secure and reliable software. Our sales team walks a mile in their customers shoes and wants our customers and prospects to see the immense value and expertise Chainguard's solutions offer. \n What you'll do: \n- Define and execute sales plans for your assigned territory \n- Convey value prop and product differentiators to prospects and customers \n- Forecast, meet, and exceed quota \n- Through a combination of inbound and outbound leads, develop and manage leads funnel \n- Manage business and track opportunities through CRM and other supporting tools \n- Collaborate on and improve all aspects of the sales cycle, including product, support, and sales engineering \n- Understand the competitive market, being familiar with competing companies and their offerings \n What we're looking for: \n- Native or fluent German speaker \n- Based in Germany \n- Enterprise Sales Experience required \n- Domain experience with one or more of the following required: Compute platforms (Kubernetes, Docker, AWS, Azure, Google Cloud), DevOps Tooling, CICD platforms (Github, Gitlab, jenkins)  and overall SDLC. \n- Strong track record consistently overachieving sales targets \n- Ability to learn new products and processes quickly \n- Competitive/Driven \n- Excellent communication skills verbal and written \n- Team player \n- Must be willing to travel to clients to support sales relationships (if required) \n- Entrepreneurial – Willing to go the extra mile, strong work ethic, resourceful. \n Desired Qualifications: \n- SaaS or Developer tools sales experience \n- Startup experience \n- A strong sales aptitude and fundamental understanding of the sales process \n- A sound, tech-savvy business acumen and the ability to articulate a compelling value proposition in a complex and evolving business environment \n- Ability to thrive in an agile environment with an ever-evolving set of solution \n About Us\n We live and breathe our company values:\n- We are customer obsessed — We focus on delivering solutions to our customers that create value and make their lives better.\n- We have a bias for intentional action — We prioritize, plan, try things, and fail fast.\n- We don't take ourselves too seriously (but we do serious work) — We are solving an important problem which takes focus, but we also like to enjoy the journey.\n- We trust each other and assume good intentions — We're transparent with decisions to empower team members to make well informed decisions.\n A few of the benefits we offer:\n- Flexible & Remote-First Culture: Work remotely with team meetup opportunities, bi-annual destination summits, and a monthly stipend for coworking spaces, phone and internet costs.\n- Our Approach to Equity: Receive st …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "852f010534fe"
+  },
+  {
+   "title": "Key Account Manager - France (m/f/x)",
+   "company": "Goegmbh",
+   "location": "",
+   "url": "https://www.arbeitnow.fr/jobs/companies/goegmbh/key-account-manager-france-278769",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-26",
+   "description": "At go-e, we have been pursuing the development of our vision with passion and strength from the very beginning. We are moving in an area that is characterized by breakthroughs and growth and that requires a lot of personal responsibility and creative solution finding. On our journey towards the energy transition, the mixture of innovation and security, regional and international, self-realization and professionalism is the ideal fuel for our mutual growth.\n We are looking for a Key Account Manager (m/f/x) in  Paris , who will help us to expand our customer base in France, where go-e aims to be the market leader for smart charging solutions for electric cars. \n With your contribution you will influence how people will charge their cars in the future. Come and join our team that is shaping the future of e-mobility!\n Your area of responsibility\n- Identify, build and develop customer opportunities in France\n- Development and adaptation of Go-to-Market Strategy\n- Identification of and contact with potential new customers \n- Support and and further develop the existing customer base \n- Recognition of market potential and implementation of sales opportunities\n- Preparation of offers and long-term partner contracts \n- Professional presentation of go-e and our entire product range as well as conducting negotiations \n- Traveling to new and existing customers in the target area to build up and strengthen relationships\n- Preparation of forecasts, reports and observation of competitors\n- Close cooperation with sales management and internal departments in our headquarters in Feldkirchen in Carinthia (Austria)\n It would be great if you have\n- Several years of sales experience or experience in supporting key customers \n- Industry knowledge and technical understanding in the field of e-mobility \n- Analytical and independent way of working \n- Willingness to travel throughout France and to our Austrian headquarter \n- Professional appearance, technical consulting skills and strong negotiation skills\n- Team-oriented, open and friendly personality \n- Native French and fluent in English, written and verbally\n It would be even better if you have\n- Network connections with electricians and/or electrical wholesalers, car dealers, e-mobility onlineshops\n- Network connections with energy suppliers\n- German and/or other foreign language skills are an advantage\n What we offer\n- Real influence in a fast-growing organization as the first Key Account Manager in France\n- A high degree of freedom in shaping your market: you know the region and the people, so we trust you to build it for go-e\n- Attractive base salary plus performance-based commission\n- Company car (leased) for your travels across France\n- Paid co-working space in Paris, or fully remote setup\n- Flexible working hours\n- Join a financially stable, profitable company in a strong growth phase\n- Employee discounts on our products\n- Mental well-being support\n Please provide your application in English. \n About go-e GmbH \n As a fast-growing, successful company in the field of e-mobility, go-e GmbH is making the transition from start-up to an internationally recognized player. From our headquarters in Carinthia, we have already expanded to around 20 countries in Europe. With bold ideas around our passion for innovative e-mobility solutions, we are already establishing future technologies. As a green tech company, environmentally conscious processes are particularly important to us, which is why we place them at th …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "7e0a0d976d05"
+  },
+  {
+   "title": "Senior Enterprise Account Executive",
+   "company": "conga",
+   "location": "",
+   "url": "https://www.arbeitnow.ch/jobs/companies/conga/senior-enterprise-account-executive-75242",
+   "source": "arbeitnow",
+   "remote": "unknown",
+   "posted": "2026-11-26",
+   "description": "A career that’s the whole package! \n At Conga, we’ve built a community where our colleagues can thrive. Here you’ll find opportunities to innovate and support growth through individual and team development, all within an environment where every voice is heard.\n Conga lines up commercial operations so companies run as connected, smarter businesses. By unifying the people and processes that drive commerce, Conga aligns pricing, quoting, contracting, rebates, and communications so teams stay in sync and buyers keep moving forward. The result is trusted decisions, consistent buyer experiences, and profitable growth. More than 10,000 customers worldwide, including over 50% of the Fortune 100®, trust Conga when commercial complexity is high and global impact is on the line. \n Location : Switzerland (remote) \n Reports to: RVP Sales \n Travel: within DACH \n Languages: native/C2 level French and English \n A Quick Snapshot….. \n As a Senior Account Executive, you'll be at the forefront of our revenue growth strategy, driving both new business acquisition and the expansion of existing enterprise accounts across key strategic industries in the DACH region. You will build trusted relationships with executive stakeholders, understand complex business challenges, and position Conga's enterprise-wide solutions to deliver measurable business outcomes.\n Working closely with Sales Engineering, Business Development, Marketing, Transformation Specialists, Customer Success, Professional Services, Partners, and clients, you will manage the full sales lifecycle from prospecting through close. This role is focused on 40% new business generation and 60% growth within existing customers.\n Why it's a big deal… \n You'll have the opportunity to sell high-impact, mission-critical transformation initiatives that create substantial value for enterprise organizations. You will develop and execute territory, account, and opportunity plans, engage senior decision-makers, and lead complex sales cycles to drive predictable revenue growth within your assigned region.\n Are you the person we are looking for? \n Proven Track Record \n You have at least 20 years of successful B2B enterprise technology sales experience within the SaaS industry and a strong track record of success in DACH.\n- Acts as a trusted advisor to enterprise customers, aligning business challenges with measurable commercial outcomes.\n- Consistently exceeds quota within complex, multi-stakeholder enterprise sales environments.\n- Builds and leverages executive, customer, partner, and ecosystem relationships to create, accelerate, and expand strategic opportunities.\n- Demonstrates strong knowledge of AI, automation, and revenue management trends, effectively translating these into customer value and business outcomes.\n- Drives predictable revenue growth through strategic account planning, executive engagement, and value-based selling.\n Hunter Mentality \n You thrive in a fast-paced environment and have a passion for identifying, pursuing, and winning new business opportunities. Through persistence, strategic thinking, and strong commercial acumen, you consistently create pipeline and close high-value enterprise deals.\n Solution Selling \n You take a consultative approach to understanding customer challenges, business priorities, and strategic objectives. You effectively position Conga's solutions and services, clearly articulating value and demonstrating how they help customers achieve their desired outcomes.\n Drive  …[truncated]",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "remote-unconfirmed"
+   },
+   "id": "ad77e82f1a47"
+  },
+  {
+   "title": "Account Executive - Turkish Speaker",
+   "company": "Lighthouse",
+   "location": "Ghent, Belgium (Barcelona Office)",
+   "url": "https://job-boards.eu.greenhouse.io/lighthouse/jobs/5048134101",
+   "source": "greenhouse:lighthouse",
+   "remote": "unknown",
+   "posted": "2026-11-25",
+   "description": "Our Mission: Why Lighthouse?  \n At Lighthouse, we’re on a mission to revolutionize commercial strategy as hospitality’s most powerful AI platform. We take the world's largest hotel data network and transform it into real-time intelligence that drives action. We don't just deliver insights; we empower businesses to make decisions that move revenue.  \n With $370M in Series C funding and over $100M in ARR, we are scaling at lightspeed. Our 850+ teammates across 35 countries aren't just building software—they are leveraging cutting-edge AI to help hoteliers be the first to act. Tens of thousands of hotels across 185 countries trust Lighthouse to execute their commercial strategy, including every one of the top 15 global chains and thousands of independent hotels that consistently outperform their markets. With Lighthouse AI, the intelligence gets deeper. Decisions get smarter. Actions get faster. We help hoteliers be first to act. \n Lighthouse Values: Our guiding light \n We are  Lumineers . Our shared values keep us on a collaborative path fostering a cultural and customer centric environment \n- Pursuit of greatness : We’re innovators who care deeply about our customers’ success. Our team brings their best work, stays curious, and delivers excellence through attention to detail \n- Meaningful work matters : We make every moment count by knowing what to deliver, why it matters, and how it drives Lighthouse forward \n- Elevate each other : We don’t just work together - we grow together. What unites us is understanding each other as people and working toward shared goals \n We’re more than just a workplace – we’re a community. Collaborative, fun, and deeply committed, we work hard together to revolutionize the hospitality sector. Are you ready to join us and shine brighter in the industry’s most exciting rocket-ship? 🚀 \n Job Details \n- 💼 Revenue  \n- 📍 Ghent, Belgium \n- 🕜 Full-Time/Hybrid  \n What you will do \n You’ll be the face of Lighthouse for new customers, owning the full sales cycle from first cold touch to close. This is a hunter role: you carry a quota, you build your own pipeline, and you’re accountable to outcomes and success. No excuses, just results.  \n Your market is two-sided. You open net-new accounts that fit our ideal customer profile and have never spoken to us, and you turn low-adoption customers who use a single Lighthouse product into full-platform customers. In both cases the goal is the same: the whole commercial platform, not one module. Small, one-off transactions are not what this role is for. You think in terms of the full deal from the first conversation, and you have the patience and the process to run a complex, multi-stakeholder cycle to get there.  \n What makes this different: you won’t do it alone. Lighthouse is deploying an agent AI infrastructure — Enablement, Pre-Sales, and Coaching agents — alongside a modern revenue stack. AI handles the prep, the sequencing, and the pattern recognition so you can focus on what matters — building relationships, running sharp discovery, and closing deals. \n Where you will have impact \n Own your territory and your number. Build and execute a strategic territory plan to generate a net-new pipeline. Maintain 3x pipeline coverage, forecast honestly, and take full accountability for your results. Your quota is your commitment.  \n Hunt into net-new accounts. Cold, outbound prospecting into ideal customer profile accounts is the core of this role, not a supplement to inbound. Run an A …[truncated]",
+   "bucket": "B",
+   "industry": "hospitality data SaaS (Ghent)",
+   "salary": "",
+   "country": "",
+   "extra": {
+    "location_class": "belgium"
+   },
+   "id": "25315a27de01"
+  },
+  {
+   "title": "Account Manager",
+   "company": "Wesearch",
+   "location": "Brussel, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-Brussel-Wesearch--2256752-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-26",
+   "description": "Introductie\n Wij zijn op zoek naar commercieel talent met een oog voor opportuniteiten, een klantgerichte houding en passie voor werken op de baan. Herken je jezelf in deze beschrijving? Dan is deze functie echt iets voor jou!\n Als accountmanager bouw je samen met je collega’s aan een sterk netwerk van bemande en onbemande afhaal- en verzendpunten. Je onderhoudt bestaande samenwerkingen en gaat actief op zoek naar nieuwe opportuniteiten.\n Jouw takenpakket: \n- Actief op zoek gaan naar nieuwe samenwerkingsmogelijkheden in regio Brussel.\n- Nieuwe locaties begeleiden van eerste contact tot succesvolle opstart en hierbij alle nodige ondersteuning bieden.\n- Het bestaande klantenportefeuille beheren als eerste aanspreekpunt voor partners.\n- Operationele uitdagingen van partners analyseren en op zoek gaan naar efficiëntere en duurzame werkwijzen.\n- Prestaties van jouw regio opvolgen aan de hand van KPI's en operationele gegevens en vertalen naar heldere rapportages.\n WeSearch\n Voor deze functie zijn wij niet op zoek naar een specifiek diploma of opleiding, maar wel een commerciële flair, goede communicatievaardigheden een analytisch inzicht. Wat breng je mee?\n- Ervaring in een gelijkaardige functie (1-3 jaar).\n- Vlotte taalvaardigheid in het Frans en Nederlands.\n- Een rijbewijs B, wij zorgen voor de wagen.\n WeOffer\n Je komt terecht bij een logistiek postbedrijf dat zich richt op pakketlevering en e-commerceoplossingen, met een sterke aanwezigheid in de Benelux. Zij bieden jou:\n- Meteen een vast contract\n- Een startloon tot 3200 euro bruto naargelang je ervaring\n- Doorgroeimogelijkheden\n- Mogelijkheid tot zelfontwikkelig via interne of externe opleidingen\n- Maaltijdcheques van €8 per gewerkte dag\n- Ecocheques\n- Wagen met laadpas (ook voor privégebruik)\n- Mogelijkheid tot fietsleasing na 2 jaar dienst\n- Hospitalisatieverzekering\n- Groepsverzekering\n- 29 dagen vakantie\n- Toegang tot het Edenred voordeelplatform\n- GSM met abonnement (voor professioneel gebruik)\n- Laptop\n YouWant?\n Heb je interesse? Solliciteer dan zeker op de onderstaande link:\n Bij vragen kan je ons ook altijd contacteren op 015/551.526.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-26T10:16:38.557Z",
+    "location_class": "belgium"
+   },
+   "id": "fc0362b2f2df"
+  },
+  {
+   "title": "Accountmanager",
+   "company": "Rock Recruitment",
+   "location": "Rumbeke, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Accountmanager-Rumbeke-Rock-Recruitment--2256309-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-24",
+   "description": "Introductie\n Je komt terecht in een ambitieus en internationaal actief familiebedrijf in regio Rumbeke. Dankzij jarenlange expertise, een sterke marktpositie en een voortdurende focus op innovatie heeft de onderneming een mooie groei gerealiseerd.\n Duurzaamheid, innovatie en ondernemerschap staan centraal. Ondanks de internationale uitstraling blijft de familiale sfeer behouden. Je werkt in een dynamische omgeving met korte communicatielijnen, snelle beslissingen en ruimte voor eigen initiatief. Hier krijg je de kans om mee te bouwen aan de verdere groei van een toekomstgerichte onderneming.\n Jouw verantwoordelijkheden\n Als Accountmanager B2B ben jij de drijvende kracht achter de verdere groei in de Benelux en Duitstalige markten. Je opent deuren, overtuigt nieuwe klanten en bouwt duurzame samenwerkingen uit.\n Wat ga je doen? \n- \n Je prospecteert actief naar nieuwe B2B-klanten in binnen- en buitenland.\n- \n Je beheert en ontwikkelt jouw eigen klantenportefeuille.\n- \n Je detecteert commerciële kansen en zet deze om in concrete samenwerkingen.\n- \n Je adviseert klanten over duurzame oplossingen voor industriële verpakkingen, van ophaling tot recyclage.\n- \n Je onderhandelt met verschillende stakeholders en bouwt sterke klantenrelaties op.\n- \n Je neemt initiatief en draagt rechtstreeks bij aan de commerciële groei.\n Jouw profiel\n Je houdt van uitdagingen, neemt graag initiatief en krijgt energie van nieuwe klanten binnenhalen. Targets motiveren je en je weet hoe je commerciële kansen omzet in resultaten.\n- \n Je beschikt over een bachelordiploma of bent gelijkwaardig door ervaring.\n- \n Je hebt ongeveer 5 jaar ervaring in B2B-sales, bij voorkeur in een industriële of internationale omgeving.\n- \n Je communiceert vlot in het Nederlands , Duits , Frans en Engels .\n- \n Je combineert een echte huntermentaliteit met het vermogen om langdurige klantenrelaties op te bouwen.\n- \n Je bent ondernemend, resultaatgericht en sterk in onderhandelen.\n- \n Je werkt zelfstandig, denkt oplossingsgericht en gaat doelgericht te werk.\n Ons aanbod\n Je krijgt een commerciële functie met verantwoordelijkheid, vrijheid en een aantrekkelijk pakket dat aansluit bij jouw ervaring.\n- \n Een vast contract vanaf dag 1.\n- \n Een competitief salaris, aangevuld met een bedrijfswagen.\n- \n Een interessant bonussysteem dat jouw commerciële resultaten beloont.\n- \n Aanvullende extralegale voordelen.\n- \n Veel autonomie om jouw klantenportefeuille en markten verder te ontwikkelen.\n- \n Rechtstreekse samenwerking met de Sales Manager binnen een vlakke organisatiestructuur.\n- \n Opleidingen om jouw commerciële expertise verder te versterken.\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-24T14:43:16.707Z",
+    "location_class": "belgium"
+   },
+   "id": "acd02c8b71d8"
+  },
+  {
+   "title": "Account manager voedingssector - Vast contract",
+   "company": "Manpower",
+   "location": "Eke, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-manager-voedingssector-Vast-contract-Eke-Manpower--2247810-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-26",
+   "description": "Voor onze klant in de regio van Nazareth zoeken wij een Account manager voor het onderhouden en uitvergroten van het klantbestand in de regio van Oost en West-Vlaanderen. \n Jouw verantwoordelijkheden\n Jouw verantwoordelijkheden \n Als Account Manager ben je het aanspreekpunt voor jouw klantenportefeuille en speel je een sleutelrol in de verdere groei van het bedrijf. Je bouwt duurzame partnerships uit en vertaalt de behoeften van klanten naar innovatieve en marktgerichte oplossingen.\n- Beheren, onderhouden en uitbreiden van een portefeuille B2B-klanten binnen de voedingssector. \n- Uitbouwen van langdurige klantenrelaties en fungeren als strategische gesprekspartner. \n- Actief detecteren van commerciële opportuniteiten en realiseren van omzet- en groeidoelstellingen. \n- Samenwerken met interne afdelingen zoals Technical & Innovation, Marketing en Sales om klantvragen om te zetten in concrete oplossingen. \n- Opvolgen van offertes, projecten, producttesten en commerciële resultaten. \n- Analyseren van marktontwikkelingen, concurrentieactiviteiten en nieuwe businesskansen. \n- Garanderen van een uitstekende klanttevredenheid dankzij een professionele en proactieve aanpak. \n- Actief deelnemen aan klantenbezoeken, evenementen, beurzen en business development initiatieven. \n- Correct registreren en opvolgen van klantgegevens en commerciële activiteiten in het CRM-systeem. \n Jouw profiel\n Vereiste competenties \n- Ervaring in B2B-sales binnen de voedingsindustrie \n- Sterke commerciële vaardigheden en bewezen ervaring in het ontwikkelen van klantenrelaties. \n- Uitstekende communicatieve en interpersoonlijke vaardigheden. \n- Vermogen om relaties op te bouwen op verschillende niveaus binnen klantorganisaties. \n- Sterke organisatorische vaardigheden en projectopvolging. \n- Onderhandelingsvaardigheden en probleemoplossend vermogen. \n- Resultaatgericht, zelfstandig en besluitvaardig. \n- Ondernemende ingesteldheid en gevoel voor initiatief. \n- Sterk netwerkvermogen. \n- Interesse in marktontwikkelingen en strategisch inzicht. \n- Klantgerichte en consultatieve aanpak. \n Ons aanbod\n- Een vast contract van onbepaalde duur bij een sterke speler op de markt   \n- Een aantrekkelijke verloning op basis van je ervaringen en kennis \n- Extra legale voordelen zoals een bedrijfswagen met tankkaart, een mooi pakket aan verzekeringen aangevuld met maaltijd en eco-cheques \n   Interesse? Stuur uw cv naar evelien.vanhauttegem@manpower.be",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-26T14:40:40.973Z",
+    "location_class": "belgium"
+   },
+   "id": "2e3c71013b8a"
+  },
+  {
+   "title": "Würth MODYF Key Account Manager Belgium",
+   "company": "Wurth Belux nv",
+   "location": "Antwerpen, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Wurth-MODYF-Key-Account-Manager-Belgium-Antwerpen-Wurth-Belux-nv--2256490-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-25",
+   "description": "Würth MODYF is gespecialiseerd in veiligheidsschoenen en werkkleding en maakt deel uit van de Würth-groep. Om onze activiteiten in België verder uit te bouwen, zoeken we een Key Account Manager die de Belgische markt actief ontwikkelt en duurzame relaties met klanten opbouwt.\n Je komt in dienst bij Würth MODYF, met hoofdkantoor in Duitsland, en krijgt een vaste werkplek bij Würth Belux. Je wordt nauw opgenomen in het team van Würth Belux en werkt intensief samen met je lokale collega’s. Daarnaast stem je regelmatig af met collega’s van Würth MODYF in Duitsland. Zo combineer je de nabijheid en marktkennis van Würth Belux met de expertise en ondersteuning van Würth MODYF.\n Jouw verantwoordelijkheden\n Wat ga je doen?\n- De verkoopactiviteiten van Würth MODYF op de Belgische markt ontwikkelen en uitbreiden\n- Verantwoordelijkheid nemen voor de commerciële resultaten van Würth MODYF in België\n- Nieuwe key accounts identificeren en binnenhalen, en duurzame klantrelaties uitbouwen\n- Bestaande klanten beheren en verder ontwikkelen, en commerciële kansen benutten\n- Aanbestedingen en offertes voorbereiden in nauwe samenwerking met de interne verkoopmedewerkers\n- Bestellingen opvolgen\n- Individuele klantbehoeften en trends in de markt en sector in kaart brengen\n- Deelnemen aan vakbeurzen en deze actief ondersteunen\n- Verkoopresultaten opvolgen en de verkoop verder ontwikkelen\n- Nauw samenwerken met collega’s van Würth Belux\n- Klantbehoeften en marktontwikkelingen afstemmen met collega’s van Würth MODYF in Duitsland\n- Samenwerken met externe zakenpartners\n Jouw profiel\n Wat heb je nodig?\n- Je hebt een commerciële opleiding en/of studie succesvol afgerond\n- Je spreekt vloeiend Nederlands en Frans en beheerst het Engels zeer goed\n- Je hebt meerdere jaren ervaring in B2B-verkoop, key accountmanagement of business development\n- Je beschikt over sterke communicatieve, presentatie- en onderhandelingsvaardigheden\n- Je hebt een proactieve, ondernemende en resultaatgerichte instelling\n- Je kunt zelfstandig werken en neemt verantwoordelijkheid voor jouw markt en klantenportefeuille\n- Ervaring met werkkleding, persoonlijke beschermingsmiddelen (PBM), textiel of een aanverwante B2B-sector is een pluspunt\n- Je bent klant- en servicegericht en werkt graag samen met anderen\n- Je bent bereid om binnen België en, indien nodig, internationaal te reizen\n- Je hebt een zeer goede kennis van MS Office; kennis van SAP is een pluspunt\n Ons aanbod\n Wat krijg je in ruil?\n- Een grondige inwerkperiode in je nieuwe functie, zowel in België als in het buitenland\n- Een vaste werkplek bij Würth Belux en nauwe samenwerking met een lokaal team\n- Veel zelfstandigheid en de kans om de Belgische markt actief verder uit te bouwen\n- Een gevarieerd klantenbestand, uiteenlopende projecten en kansen om nieuwe business te ontwikkelen\n- Doorlopende opleidings- en ontwikkelingsmogelijkheden binnen de Würth-groep\n- Een internationale werkomgeving en samenwerking met collega’s binnen de Würth-groep\n Word deel van ons internationale team en help Würth MODYF verder uit te bouwen in België. In deze functie krijg je de ruimte om verantwoordelijkheid te nemen, duurzame klantrelaties op te bouwen en samen met je collega’s van Würth Belux en Würth MODYF bij te dragen aan de groei van de activiteiten.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-25T10:10:10.217Z",
+    "location_class": "belgium"
+   },
+   "id": "e5ce9b2e332d"
+  },
+  {
+   "title": "(Jnr) Key Accountmanager - FMCG - Retail",
+   "company": "Michael Page",
+   "location": "Antwerpen, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Jnr-Key-Accountmanager-FMCG-Retail-Antwerpen-Michael-Page--2256744-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-26",
+   "description": "Als Key Accountmanager werk je mee aan de commerciële groei van een sterk consumentenmerk binnen de Belgische retailmarkt. Je krijgt de kans om rechtstreeks samen te werken met grote retailers, ervaren collega's en internationale teams binnen een organisatie die sterk inzet op groei en ondernemerschap.\n Onze klant is een internationale FMCG-speler met een sterke focus op kwaliteit, innovatie en duurzaamheid. In België werkt een compact en ambitieus team dagelijks aan de verdere uitbouw van bekende merken binnen de retailmarkt.\n#FMCG #Retail #Food #Sales #KeyAccountManagement #Sustainability #BrandGrowth\n Jouw verantwoordelijkheden\n Als Key Account Manager ondersteun je het beheer en de ontwikkeling van strategische retailklanten.\n- Je beheert grote retailaccounts en lanceert a-brands (Delhaize, Colruyt, Aldi, etc.)\n- Voorbereiden van business reviews en klantpresentaties.\n- Opvolgen van promoties, commerciële afspraken en contracten.\n- Analyseren van verkoopcijfers, promotieresultaten en marktdata. \n- Samenwerken met marketing rond nieuwe productintroducties.\n- Contact onderhouden met interne stakeholders in sales, supply chain en marketing.\n- Mee onderhandelen en deelnemen aan klantengesprekken.\n- Signaleren van commerciële opportuniteiten en marktontwikkelingen.\n- Regelmatig afstemmen met internationale collega's.\n Jouw profiel\n Je bent commercieel ingesteld, analytisch sterk en klaar om je eerste of tweede stap binnen Key Account Management te zetten.\n- Bachelor of masterdiploma.\n- Eerste relevante ervaring binnen FMCG, retail, category management of sales. \n- Affiniteit met voeding, consumentengoederen of merken.\n- Sterke communicatieve vaardigheden.\n- Analytisch (Nielsen data, GFK, etc.) en vlot met Excel en cijfers. \n- Proactieve houding en zin om verantwoordelijkheid op te nemen.\n- Vloeiend Nederlands en Frans, goede kennis Engels. \n- Ambitie om door te groeien binnen een commerciële omgeving.\n Ons aanbod\n Wat mag je verwachten?\n- Mooi opleidingstraject.\n- Rechtstreeks contact met de grootste retailers van België.\n- Veel autonomie en ruimte om initiatief te nemen.\n- Internationale omgeving met korte beslissingslijnen.\n- Hybride werken met een combinatie van kantoor en thuiswerk.\n- Competitief salarispakket aangevuld met een uitgebreid pakket extralegale voordelen.\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-26T09:56:54.567Z",
+    "location_class": "belgium"
+   },
+   "id": "e571449dec33"
+  },
+  {
+   "title": "Account Manager buitendienst",
+   "company": "HeadCount",
+   "location": "Leuven, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Account-Manager-buitendienst-Leuven-HeadCount--2256503-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-25",
+   "description": "Account Manager buitendienst |regio Antwerpen, Gent en Limburg \n Eigen klantenportefeuille · coachingtraject met sales trainer · thuiswerk of kantoor in Gent of Antwerpen · bedrijfswagen · vast + variabel loon\n De eerste stappen in sales zijn gezet. De eerste klanten zijn binnen. Tijd voor de volgende stap: een eigen portefeuille, een eigen regio en een rol als Account Manager buitendienst in B2B-sales. Met een sales trainer die meerijdt en je helpt om bij elke klant sterker te staan.\n Onze opdrachtgever, een internationale groep in B2B-dienstverlening, zoekt voor de regio tussen Antwerpen, Limburg en Gent een Account Manager die wil leren én scoren. Wat deze functie uniek maakt: een volwaardig coachingtraject, waarbij een sales trainer meerijdt naar klanten, de aanpak observeert en na elk bezoek gerichte feedback geeft.\n Jouw verantwoordelijkheden\n Salesopleiding en coaching: zo groeit een goede verkoper uit tot een sterke \n- Gestructureerde onboarding : een programma met trainingsmodules over het aanbod, de markt en de salesaanpak\n- Coaching on the road: een sales trainer gaat mee op klantbezoek. Feedback uit de praktijk, niet uit een opleidingslokaal.\n- Een coachende salesmanager: al heel wat account managers begeleid, stelt duidelijke doelen, en begeleid je graag in jouw dagelijks werk.\n- Opvolging na 30, 60 en 90 dagen: een gesprek vanuit HR over hoe de eerste maanden verlopen, los van de resultaten\n- Uitwisseling met andere starters: elke 6 maanden een dag met alle nieuwe medewerkers en het management\n- Doorgroei: opleidingen op maat en perspectief richting key accountmanagement.\n De functie : accountmanagement en new business \n- Eigen klantenportefeuille in de regio Antwerpen, Gent en Limburg: bewust beperkt gehouden, met ruimte voor prospectie\n- Klantenbeheer: klanten opvolgen, relaties uitbouwen en nieuwe kansen detecteren\n- New business: prospecteren, afspraken inplannen en deals afsluiten. Hier wordt het verschil gemaakt.\n- Het product: servicecontracten, uitsluitend B2B en met terugkerende omzet\n- Werkplek: flexibel van thuis uit, of op kantoor in Gent of Antwerpen\n Een typische dag: klantenbezoeken, met vertrek van thuis en kan je ook terecht bij het dichtstbijzijnde kantoor bijvoorbeeld in Antwerpen of Gent.\n Jouw profiel\n Jouw profiel : een gedreven salestalent met de eerste ervaring op zak \n- Diploma: minimaal een bachelordiploma, \n- Ervaring: eerste ervaring in sales, bijvoorbeeld als verkoper, vertegenwoordiger of commercieel medewerker, of in inside sales.\n- Resultaat: zelf al klanten of deals binnengehaald, met een concreet verhaal over de aanpak\n- Drive: initiatief om te prospecteren, ook na een afwijzing\n- Leergierig: openheid voor feedback en de wil om die snel om te zetten in actie\n- Structuur: zelfstandig de eigen week plannen en de pipeline nauwgezet opvolgen\n- Talen: vlot Nederlands en goede kennis Engels.\n Naast een bachelordiploma weegt vooral attitude door: we zoeken iemand die vooral het sales vak wil leren.\n Ons aanbod\n Het aanbod \n- Coachingtraject en uitgebreide onboarding, zoals hierboven beschreven\n- Flexibel thuiswerk, met een kantoor in Gent of Antwerpen wanneer je dat wil\n- Bedrijfswagen met tankkaart, laptop en gsm\n- Vast loon, aangevuld met een variabel luik\n- Maaltijd- en ecocheques, eindejaarspremie en hospitalisatieverzekering\n- 32 vakantiedagen\n Interesse? \n Stel je online kandidaat en gaan we graag met jou in gesprek!",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-25T11:50:45.36Z",
+    "location_class": "belgium"
+   },
+   "id": "f261a4dc8218"
+  },
+  {
+   "title": "Channel Manager",
+   "company": "Dixon Sales & Marketing",
+   "location": "België, Belgium",
+   "url": "https://www.stepstone.be/vacatures--Channel-Manager-Belgie-Dixon-Sales-Marketing--2257320-inline.html",
+   "source": "stepstone",
+   "remote": "unknown",
+   "posted": "2026-11-27",
+   "description": "Introductie\n Onze klant is een gevestigde speler in de farmaceutische sector, onderdeel van een internationale groep. In België ondersteunt de organisatie apothekers met een breed aanbod aan producten, aankoopvoordelen en diensten. Zo kunnen zij zich volledig richten op de zorg voor hun patiënten.\n Binnen die organisatie ga je aan de slag in een kleine, wendbare business unit die rechtstreeks met apothekers en farmaceutische partners werkt. Het team staat voor een nieuwe groeifase. Jij krijgt de kans om die mee vorm te geven, met de slagkracht van een grote Europese groep achter je.\n Jouw verantwoordelijkheden\n Als Channel Manager ben je verantwoordelijk voor de commerciële ontwikkeling van een strategisch kanaal richting apothekers, en dat in heel België. Je bent de schakel tussen klanten, farmaceutische partners en de interne teams.\n- Je bouwt mee aan de strategie en de positionering van het kanaal, en je werkt een aanpak op maat uit per klantsegment.\n- Je werkt nauw samen met de salesorganisatie. Je geeft het team focus, prioriteiten en KPI's mee, en je verzorgt opleidingen.\n- Je trekt zelf het terrein op en bezoekt apothekers, alleen of samen met collega's van sales.\n- Je bouwt sterke relaties uit met farmaceutische en cosmetische partners. Je onderhandelt mee over samenwerkingsakkoorden en werkt gezamenlijke acties en campagnes uit.\n- Je zorgt voor commerciële groei: je trekt nieuwe klanten aan en verhoogt de betrokkenheid van bestaande klanten.\n- Je organiseert events, webinars en opleidingen voor je klanten.\n- Je volgt de resultaten op met analyses en rapportering, en je stuurt bij waar nodig.\n- Je werkt samen met Sales, Marketing en Procurement, in een klein en hecht team.\n Je rapporteert rechtstreeks aan de directie. Je krijgt veel vertrouwen en autonomie. Dit is een functie zonder people management.\n Jouw profiel\n Wat neem je mee?\n- Je hebt ervaring in de farmaceutische sector of in retail, bijvoorbeeld bij een groothandel, een labo (OTC), in key account management naar apotheken of bij een retailketen. Een apothekersdiploma is een plus.\n- Je hebt enkele jaren relevante commerciële ervaring met verantwoordelijkheid. Leidinggevende ervaring is een plus.\n- Je spreekt vlot Nederlands en Frans. Engels is een troef.\n- Je bent een relatiebouwer die zich thuis voelt op het terrein.\n- Je onderhandelt constructief en assertief.\n- Je denkt strategisch, maar bent ook hands-on.\n- Je bent analytisch sterk en werkt vlot met Excel, PowerPoint en een CRM-systeem.\n- Je bent een teamspeler: zelfstandig, maar met regelmatig overleg.\n- Je bent mobiel en bereid om door heel België te rijden.\n- Je zoekt een functie waarin je je voor lange tijd wil engageren.\n Ons aanbod\n- Een vast voltijds contract in een internationale organisatie.\n- Een afwisselende job tussen terrein en kantoor, met af en toe de mogelijkheid om van thuis te werken.\n- Een competitief salaris, aangevuld met een 13e maand en een bonus.\n- Een bedrijfswagen met laadkaart.\n- Een cafetariaplan, maaltijdcheques, een hospitalisatie- en een groepsverzekering.\n- Veel autonomie, zichtbare impact en doorgroeimogelijkheden binnen de groep.\n Geïnteresseerd?\n Dien je sollicitatie alstublieft in via de onderstaande knop.",
+   "bucket": "",
+   "industry": "",
+   "salary": "",
+   "country": "BE",
+   "extra": {
+    "valid_through": "2026-12-27T13:36:21.677Z",
+    "location_class": "belgium"
+   },
+   "id": "231611a2639d"
+  }
+ ]
+}

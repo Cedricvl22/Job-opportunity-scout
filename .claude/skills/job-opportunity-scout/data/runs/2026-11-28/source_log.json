@@ -1,0 +1,794 @@
+[
+ {
+  "source": "adzuna:adzuna",
+  "company": "adzuna",
+  "status": "blocked-robots",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "RobotsDisallowed: robots.txt disallows https://api.adzuna.com/v1/api/jobs/be/search/1?app_id=ae6063af&app_key=20e672c2caf7cc68ae50a8404b7de3db&what=enterprise+account+executive&results_per_page=50&max_days_old=45&content-type=application%2Fjson"
+ },
+ {
+  "source": "browser:sap",
+  "company": "SAP",
+  "status": "failed",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "SourceError: page load failed for https://jobs.sap.com/search/?locationsearch=Belgium: Page.wait_for_selector: Timeout 20000ms exceeded."
+ },
+ {
+  "source": "ictjob:ictjob",
+  "company": "ictjob",
+  "status": "disabled",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "keyword search only via /ajax/ (disallowed by robots.txt)"
+ },
+ {
+  "source": "jooble:jooble",
+  "company": "jooble",
+  "status": "skipped-no-key",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "MissingKey: JOOBLE_API_KEY not set"
+ },
+ {
+  "source": "remotive:remotive",
+  "company": "remotive",
+  "status": "disabled",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "robots.txt disallows /api/"
+ },
+ {
+  "source": "smartrecruiters:BoschGroup",
+  "company": "Bosch",
+  "status": "blocked-robots",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100&offset=0&country=be"
+ },
+ {
+  "source": "smartrecruiters:ServiceNow",
+  "company": "ServiceNow",
+  "status": "blocked-robots",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/ServiceNow/postings?limit=100&offset=0&country=be"
+ },
+ {
+  "source": "smartrecruiters:Visa",
+  "company": "Visa",
+  "status": "blocked-robots",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "RobotsDisallowed: robots.txt disallows https://api.smartrecruiters.com/v1/companies/Visa/postings?limit=100&offset=0&country=be"
+ },
+ {
+  "source": "workday:3m",
+  "company": "3M",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: 3m.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:accenture",
+  "company": "Accenture",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: accenture.wd103.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:adobe",
+  "company": "Adobe",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: adobe.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:broadcom",
+  "company": "Broadcom",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: broadcom.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:cisco",
+  "company": "Cisco",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: cisco.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:dell",
+  "company": "Dell Technologies",
+  "status": "failed",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "SourceError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs"
+ },
+ {
+  "source": "workday:dow",
+  "company": "Dow",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: dow.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:dxctechnology",
+  "company": "DXC Technology",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: dxctechnology.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:equinix",
+  "company": "Equinix",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: equinix.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:hp",
+  "company": "HP Inc",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: hp.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:intel",
+  "company": "Intel",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: intel.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:jj",
+  "company": "Johnson & Johnson",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: jj.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:kyndryl",
+  "company": "Kyndryl",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: kyndryl.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:mastercard",
+  "company": "Mastercard",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: mastercard.wd1.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:motorolasolutions",
+  "company": "Motorola Solutions",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: motorolasolutions.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:nvidia",
+  "company": "NVIDIA",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: nvidia.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:salesforce",
+  "company": "Salesforce",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: salesforce.wd12.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "workday:workday",
+  "company": "Workday",
+  "status": "blocked-bot-protection",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 0.0,
+  "error": "BotBlocked: workday.wd5.myworkdayjobs.com answers with a bot-protection challenge (Cloudflare); not bypassed"
+ },
+ {
+  "source": "arbeitnow:arbeitnow",
+  "company": "arbeitnow",
+  "status": "ok",
+  "fetched": 1474,
+  "kept": 3,
+  "seconds": 8.2,
+  "error": ""
+ },
+ {
+  "source": "ashby:1password",
+  "company": "1Password",
+  "status": "ok",
+  "fetched": 79,
+  "kept": 0,
+  "seconds": 5.1,
+  "error": ""
+ },
+ {
+  "source": "ashby:illumio",
+  "company": "Illumio",
+  "status": "ok",
+  "fetched": 83,
+  "kept": 0,
+  "seconds": 4.7,
+  "error": ""
+ },
+ {
+  "source": "ashby:mollie",
+  "company": "Mollie",
+  "status": "ok",
+  "fetched": 48,
+  "kept": 0,
+  "seconds": 4.0,
+  "error": ""
+ },
+ {
+  "source": "ashby:planhat",
+  "company": "Planhat",
+  "status": "ok",
+  "fetched": 45,
+  "kept": 0,
+  "seconds": 1.0,
+  "error": ""
+ },
+ {
+  "source": "ashby:pleo",
+  "company": "Pleo",
+  "status": "ok",
+  "fetched": 29,
+  "kept": 0,
+  "seconds": 2.0,
+  "error": ""
+ },
+ {
+  "source": "ashby:snowflake",
+  "company": "Snowflake",
+  "status": "ok",
+  "fetched": 380,
+  "kept": 0,
+  "seconds": 3.2,
+  "error": ""
+ },
+ {
+  "source": "ashby:snyk",
+  "company": "Snyk",
+  "status": "ok",
+  "fetched": 35,
+  "kept": 0,
+  "seconds": 4.6,
+  "error": ""
+ },
+ {
+  "source": "ashby:uipath",
+  "company": "UiPath",
+  "status": "ok",
+  "fetched": 107,
+  "kept": 0,
+  "seconds": 4.8,
+  "error": ""
+ },
+ {
+  "source": "ashby:vanta",
+  "company": "Vanta",
+  "status": "ok",
+  "fetched": 61,
+  "kept": 0,
+  "seconds": 3.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:adyen",
+  "company": "Adyen",
+  "status": "ok",
+  "fetched": 233,
+  "kept": 0,
+  "seconds": 2.2,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:airbnb",
+  "company": "Airbnb",
+  "status": "ok",
+  "fetched": 200,
+  "kept": 0,
+  "seconds": 6.3,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:algolia",
+  "company": "Algolia",
+  "status": "ok",
+  "fetched": 25,
+  "kept": 0,
+  "seconds": 5.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:block",
+  "company": "Block",
+  "status": "ok",
+  "fetched": 183,
+  "kept": 0,
+  "seconds": 7.2,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:bloomreach",
+  "company": "Bloomreach",
+  "status": "ok",
+  "fetched": 56,
+  "kept": 0,
+  "seconds": 5.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:celonis",
+  "company": "Celonis",
+  "status": "ok",
+  "fetched": 256,
+  "kept": 0,
+  "seconds": 5.4,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:cloudflare",
+  "company": "Cloudflare",
+  "status": "ok",
+  "fetched": 532,
+  "kept": 0,
+  "seconds": 4.4,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:collibra",
+  "company": "Collibra",
+  "status": "ok",
+  "fetched": 22,
+  "kept": 0,
+  "seconds": 7.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:commvault",
+  "company": "Commvault",
+  "status": "ok",
+  "fetched": 58,
+  "kept": 0,
+  "seconds": 4.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:databricks",
+  "company": "Databricks",
+  "status": "ok",
+  "fetched": 889,
+  "kept": 0,
+  "seconds": 2.7,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:datadog",
+  "company": "Datadog",
+  "status": "ok",
+  "fetched": 392,
+  "kept": 0,
+  "seconds": 3.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:dataiku",
+  "company": "Dataiku",
+  "status": "ok",
+  "fetched": 15,
+  "kept": 0,
+  "seconds": 4.9,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:elastic",
+  "company": "Elastic",
+  "status": "ok",
+  "fetched": 369,
+  "kept": 0,
+  "seconds": 4.4,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:fivetran",
+  "company": "Fivetran",
+  "status": "ok",
+  "fetched": 200,
+  "kept": 0,
+  "seconds": 6.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:gitlab",
+  "company": "GitLab",
+  "status": "ok",
+  "fetched": 244,
+  "kept": 0,
+  "seconds": 5.9,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:kaseya",
+  "company": "Kaseya",
+  "status": "ok",
+  "fetched": 87,
+  "kept": 0,
+  "seconds": 4.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:knowbe4",
+  "company": "KnowBe4",
+  "status": "ok",
+  "fetched": 57,
+  "kept": 0,
+  "seconds": 5.0,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:lighthouse",
+  "company": "Lighthouse",
+  "status": "ok",
+  "fetched": 38,
+  "kept": 1,
+  "seconds": 3.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:mirakl",
+  "company": "Mirakl",
+  "status": "ok",
+  "fetched": 20,
+  "kept": 0,
+  "seconds": 5.7,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:mongodb",
+  "company": "MongoDB",
+  "status": "ok",
+  "fetched": 424,
+  "kept": 0,
+  "seconds": 4.3,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:netskope",
+  "company": "Netskope",
+  "status": "ok",
+  "fetched": 123,
+  "kept": 0,
+  "seconds": 5.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:newrelic",
+  "company": "New Relic",
+  "status": "ok",
+  "fetched": 42,
+  "kept": 0,
+  "seconds": 5.9,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:okta",
+  "company": "Okta",
+  "status": "ok",
+  "fetched": 360,
+  "kept": 0,
+  "seconds": 5.3,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:onetrust",
+  "company": "OneTrust",
+  "status": "ok",
+  "fetched": 87,
+  "kept": 0,
+  "seconds": 4.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:purestorage",
+  "company": "Pure Storage",
+  "status": "ok",
+  "fetched": 401,
+  "kept": 0,
+  "seconds": 4.6,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:realtimeboardglobal",
+  "company": "Miro",
+  "status": "ok",
+  "fetched": 12,
+  "kept": 0,
+  "seconds": 2.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:rubrik",
+  "company": "Rubrik",
+  "status": "ok",
+  "fetched": 231,
+  "kept": 0,
+  "seconds": 6.0,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:samsara",
+  "company": "Samsara",
+  "status": "ok",
+  "fetched": 297,
+  "kept": 0,
+  "seconds": 5.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:sentinellabs",
+  "company": "SentinelOne",
+  "status": "ok",
+  "fetched": 250,
+  "kept": 0,
+  "seconds": 5.2,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:showpad",
+  "company": "Showpad",
+  "status": "ok",
+  "fetched": 26,
+  "kept": 0,
+  "seconds": 8.8,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:starburst",
+  "company": "Starburst",
+  "status": "ok",
+  "fetched": 36,
+  "kept": 0,
+  "seconds": 6.0,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:stripe",
+  "company": "Stripe",
+  "status": "ok",
+  "fetched": 771,
+  "kept": 0,
+  "seconds": 6.4,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:sumologic",
+  "company": "Sumo Logic",
+  "status": "ok",
+  "fetched": 26,
+  "kept": 0,
+  "seconds": 5.9,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:tanium",
+  "company": "Tanium",
+  "status": "ok",
+  "fetched": 67,
+  "kept": 0,
+  "seconds": 6.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:twilio",
+  "company": "Twilio",
+  "status": "ok",
+  "fetched": 114,
+  "kept": 0,
+  "seconds": 5.1,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:wizinc",
+  "company": "Wiz",
+  "status": "ok",
+  "fetched": 100,
+  "kept": 0,
+  "seconds": 5.7,
+  "error": ""
+ },
+ {
+  "source": "greenhouse:zscaler",
+  "company": "Zscaler",
+  "status": "ok",
+  "fetched": 385,
+  "kept": 0,
+  "seconds": 5.8,
+  "error": ""
+ },
+ {
+  "source": "lever:ataccama",
+  "company": "Ataccama",
+  "status": "ok",
+  "fetched": 21,
+  "kept": 0,
+  "seconds": 6.0,
+  "error": ""
+ },
+ {
+  "source": "lever:contentsquare",
+  "company": "Contentsquare",
+  "status": "ok",
+  "fetched": 26,
+  "kept": 0,
+  "seconds": 5.2,
+  "error": ""
+ },
+ {
+  "source": "lever:deliverect",
+  "company": "Deliverect",
+  "status": "ok",
+  "fetched": 0,
+  "kept": 0,
+  "seconds": 8.0,
+  "error": ""
+ },
+ {
+  "source": "lever:extremenetworks",
+  "company": "Extreme Networks",
+  "status": "ok",
+  "fetched": 70,
+  "kept": 0,
+  "seconds": 8.1,
+  "error": ""
+ },
+ {
+  "source": "lever:mendix",
+  "company": "Mendix",
+  "status": "ok",
+  "fetched": 40,
+  "kept": 0,
+  "seconds": 7.5,
+  "error": ""
+ },
+ {
+  "source": "lever:outreach",
+  "company": "Outreach",
+  "status": "ok",
+  "fetched": 15,
+  "kept": 0,
+  "seconds": 5.0,
+  "error": ""
+ },
+ {
+  "source": "lever:pigment",
+  "company": "Pigment",
+  "status": "ok",
+  "fetched": 128,
+  "kept": 0,
+  "seconds": 6.1,
+  "error": ""
+ },
+ {
+  "source": "lever:silverfin",
+  "company": "Silverfin",
+  "status": "ok",
+  "fetched": 9,
+  "kept": 0,
+  "seconds": 4.9,
+  "error": ""
+ },
+ {
+  "source": "lever:sysdig",
+  "company": "Sysdig",
+  "status": "ok",
+  "fetched": 34,
+  "kept": 0,
+  "seconds": 5.0,
+  "error": ""
+ },
+ {
+  "source": "lever:topdesk",
+  "company": "TOPdesk",
+  "status": "ok",
+  "fetched": 6,
+  "kept": 0,
+  "seconds": 1.9,
+  "error": ""
+ },
+ {
+  "source": "recruitee:aikidosecurity",
+  "company": "Aikido Security",
+  "status": "ok",
+  "fetched": 77,
+  "kept": 0,
+  "seconds": 7.2,
+  "error": ""
+ },
+ {
+  "source": "recruitee:bunq",
+  "company": "bunq",
+  "status": "ok",
+  "fetched": 18,
+  "kept": 0,
+  "seconds": 3.1,
+  "error": ""
+ },
+ {
+  "source": "recruitee:lansweeper",
+  "company": "Lansweeper",
+  "status": "ok",
+  "fetched": 24,
+  "kept": 0,
+  "seconds": 4.6,
+  "error": ""
+ },
+ {
+  "source": "stepstone:stepstone",
+  "company": "stepstone",
+  "status": "ok",
+  "fetched": 202,
+  "kept": 7,
+  "seconds": 14.3,
+  "error": ""
+ },
+ {
+  "source": "teamtailor:templafy",
+  "company": "Templafy",
+  "status": "ok",
+  "fetched": 2,
+  "kept": 0,
+  "seconds": 4.8,
+  "error": ""
+ }
+]
